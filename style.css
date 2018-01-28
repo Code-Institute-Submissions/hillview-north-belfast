@@ -1,46 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Roboto+Condensed:100,200,300,400,500,600,700|Barlow+Semi+Condensed:100,200,300,400,500,600,700');
 
-
-
-/*Colors and Background*/
+/*Margins and Padding*/
 
 body {
+    margin: 0;
+}
+
+#background {
     background-image: url(../images/ecwscale.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /*background-color: #000000;*/
 }
 
-.ul-menu-color-facts {
-    background-color: #B8977E;
-    opacity: .75;
-    
+.container-fluid {
+    margin: 0;
 }
 
-.ul-menu-color-impact {
-    background-color: #FFBA5C;
-    opacity: .75;
+.header-para {
+    padding-right: 0;
 }
 
-.ul-menu-color-can-do {
-    background-color: #F95F62;
-    opacity: .75;
+blockquote {
+    padding-right: 0;
 }
 
-.ul-menu-color-resources {
-    background-color: #77D353;
-    opacity: .75;
-}
-
-hr {
-    width: 75%;
-}
-
-
-
-/*Header and Paragraph Styling*/
-
+/*Headings and Paragraphs*/
 h1 {
     font-family: "Roboto", sans-serif;
     font-size: 7.3rem;
@@ -75,22 +60,17 @@ p {
     font-size: 2.5rem;
     font-weight: 100;
     color: #FFFFFF;
-    margin-left: 0px;
-    margin-right: 0px;
     text-align: left;
     line-height: 1.1;
 }
 
-
-
-/*Header*/
-
+/*Nav Buttons*/
 .fa-arrow-circle-o-left {
     color: #000000;
     opacity: .30;
     position: fixed;
     top: 3%;
-    left: 85%;
+    left: 88%;
     z-index: 4;
 }
 
@@ -99,12 +79,9 @@ p {
     opacity: .30;
     position: fixed;
     top: 10%;
-    left: 85%;
+    left: 88%;
     z-index: 4;
 }
-
-
-
 
 
 /*Main*/
@@ -113,20 +90,40 @@ p {
     margin: 0;
 }
 
-#nav li {
-    padding: 0;
-    font-family: "Roboto Condensed", sans-serif;
-}
-
 .menu-item {
     height: 13vh;
     padding: 0;
     line-height: 1;
 }
 
+#nav li {
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
 .menu-item a {
     text-decoration: none;
     color: #ffffff;
+}
+
+.ul-menu-color-facts {
+    background-color: #B8977E;
+    opacity: .75;
+}
+
+.ul-menu-color-impact {
+    background-color: #FFBA5C;
+    opacity: .75;
+}
+
+.ul-menu-color-can-do {
+    background-color: #F95F62;
+    opacity: .75;
+}
+
+.ul-menu-color-resources {
+    background-color: #77D353;
+    opacity: .75;
 }
 
 .menu-item a i {
@@ -157,10 +154,57 @@ p {
     text-align: left;
 }
 
+.facts-row {
+    height: 20vh;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #FFFFFF;
+}
 
+.fact-image-box-dodds {
+    height: 20vh;
+    background-image: url("/images/mccdodds.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.fact-image-box-boyd {
+    height: 20vh;
+    background-image: url("/images/BoydsProposal.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.fact-image-box-uda {
+    height: 20vh;
+    background-image: url("/images/UDA.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.fact-image-box-bcc {
+    height: 20vh;
+    background-image: url("/images/BCC2.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.fact-txt {
+    height: 20vh;
+    margin-top: .5rem;
+    line-height: 1.1;
+}
 
 /*Footer*/
-
 .logo {
     background: url("../images/logo.png");
     background-position: center;
@@ -191,8 +235,17 @@ p {
     padding: 2rem;
 }
 
+.social-media-txt-box{
+    text-align: center;
+}
+
 #social-media-logos {
     text-align: center;
+}
+
+
+hr {
+    width: 75%
 }
 
 
@@ -332,6 +385,7 @@ p {
     /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>min-width: 1200px - Main*/
     blockquote {
         margin-top: 3rem;
+        padding-right: 1.5rem;
     }
 
     p {
@@ -381,3 +435,4 @@ p {
     }
 
 }
+
