@@ -21,8 +21,15 @@ body {
     padding-right: 0;
     padding-top: 1rem;
     margin-bottom: 1rem;
-    background-color: #B8977E;
     opacity: .75;
+}
+
+.header-para-facts-color {
+    background-color: #B8977E;
+}
+
+.header-para-impact-color {
+    background-color: #FFBA5C;
 }
 
 blockquote {
@@ -196,32 +203,32 @@ p {
     background-image: url("/images/mcdoddscropped.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    border-right: .25rem solid #a98bd7;
-    border-bottom: .25rem solid #a98bd7;
+    border: .25rem solid #a98bd7;;
+
 }
 
 .boyd-image {
     background-image: url("/images/killultaghcropped.png");
     background-repeat: no-repeat;
     background-size: cover;
-    border-left: .25rem solid #a98bd7;
-    border-bottom: .25rem solid #a98bd7;
+    border: .25rem solid #a98bd7;
+
 }
 
 .uda-image {
     background-image: url("/images/UDA.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: .25rem solid #a98bd7;
-    border-right: .25rem solid #a98bd7;
+    border: .25rem solid #a98bd7;
+
 }
 
 .bcc-image {
     background-image: url("/images/BCClogo.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: .25rem solid #a98bd7;
-    border-left: .25rem solid #a98bd7;
+    border: .25rem solid #a98bd7;;
+
 }
 
 .fact-txt {
@@ -229,6 +236,17 @@ p {
     margin-top: .5rem;
     line-height: 1.1;
 }
+
+/*MAIN - Impact*/
+
+.video-container iframe {
+    position: relative;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
 
 /*Footer*/
 
