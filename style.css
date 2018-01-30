@@ -11,6 +11,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .container-fluid {
@@ -30,6 +31,10 @@ body {
 
 .header-para-impact-color {
     background-color: #FFBA5C;
+}
+
+.header-para-facts-resources {
+    background-color: #77D353;
 }
 
 blockquote {
@@ -70,10 +75,9 @@ h5 {
 
 h3 {
     font-family: "News Cycle", sans-serif;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 3rem;
     text-align: center;
-    opacity: 0.8;
     padding-top: 4vh;
     padding-left: .5rem;
 }
@@ -203,7 +207,8 @@ p {
     background-image: url("/images/mcdoddscropped.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    border: .25rem solid #a98bd7;;
+    border: .25rem solid #a98bd7;
+    ;
 
 }
 
@@ -227,7 +232,7 @@ p {
     background-image: url("/images/BCClogo.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    border: .25rem solid #a98bd7;;
+    border: .25rem solid #a98bd7;
 
 }
 
@@ -247,6 +252,49 @@ p {
     height: 90%;
 }
 
+.support-image {
+    background-image: url("/images/UNsupport.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: .25rem solid #a98bd7;
+}
+
+
+/*MAIN - Resources*/
+
+.media-image {
+    background-image: url("/images/media.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: .25rem solid #a98bd7;
+}
+
+.reports-image {
+    background-image: url("/images/infograph.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: .25rem solid #a98bd7;
+}
+
+.morehillview-image {
+    background-image: url("/images/ECWHillview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: .25rem solid #a98bd7;
+}
+
+.foi-image {
+    background-image: url("/images/foi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: .25rem solid #a98bd7;
+}
+
+.resource-link {
+    position: absolute;
+    top: 80%;
+    left: 75%;
+}
 
 /*Footer*/
 
@@ -322,8 +370,7 @@ hr {
     h3 {
         font-size: 3rem;
         text-align: left;
-        opacity: 0.8;
-        padding-top: 17vh;
+        padding-top: 10vh;
         padding-left: .5rem;
     }
 
@@ -373,6 +420,17 @@ hr {
         left: 1.5rem;
     }
 
+/*Main - RESOURCES*/
+.resource-link {
+    position: absolute;
+    top: 70%;
+    left: 75%;
+}
+
+.fa-2x {
+    font-size: 4em;
+}
+
 
     /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>min-width: 768px - Footer*/
     .logo {
@@ -405,7 +463,6 @@ hr {
 
 
 
-
 @media(min-width: 1200px) {
 
     /*>>>>>>>>>>>>>>>>>>>>>>>min-width: 1200px - Header and Paragraph Styling*/
@@ -423,8 +480,7 @@ hr {
     h3 {
         font-size: 3.5rem;
         text-align: left;
-        opacity: 0.8;
-        padding-top: 15vh;
+        padding-top: 10vh;
         padding-left: .5rem;
     }
 
