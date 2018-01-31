@@ -41,6 +41,10 @@ body {
     background-color: #4169e1;
 }
 
+.header-para-cando {
+    background-color: #F95F62;
+}
+
 
 blockquote {
     padding-right: 0;
@@ -101,6 +105,24 @@ p {
     font-weight: 500;
     font-size: 2.5rem;
     color: #fafafa;
+}
+
+#action-intro {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #FFFFFF;
+    text-align: left;
+    line-height: 1.1;
+
+}
+
+.panel-body {
+    font-family: "News Cycle", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 0;
+    background-color: #f0fcf1;
 }
 
 
@@ -365,6 +387,24 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
+/*Main - CAN DO*/
+
+.panel-default>.panel-heading {
+    height: 6vh;
+    color: #333;
+    background-color: #f5f5f5;
+    /*background-image: url(**);*/
+    border-color: #ddd;
+}
+
+.act-now {
+    margin-top: 2rem;
+}
+
+.action-logos {
+    height: 100px;
+}
+
 
 /*Footer*/
 
@@ -443,6 +483,17 @@ hr {
         padding-top: 10vh;
         padding-left: .5rem;
     }
+    
+
+#action-intro {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
+    color: #FFFFFF;
+    text-align: left;
+    line-height: 1.1;
+
+}
 
 
     /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>min-width: 768px - Header*/
@@ -553,7 +604,16 @@ hr {
         padding-top: 10vh;
         padding-left: .5rem;
     }
+    
+#action-intro {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
+    color: #FFFFFF;
+    text-align: left;
+    line-height: 1.1;
 
+}
 
     /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>min-width: 1200px - Header*/
     .fa-arrow-circle-o-left {
