@@ -14,9 +14,6 @@
 
 <body id="background" class="container-fluid">
 
-
-
-
   <header>
     <div class="row">
       <div class="col-xs-10 heading">
@@ -26,7 +23,7 @@
       <div class="col-xs-2">
         <div class="row">
           <div class="col-xs-12">
-            <span><i class="fa fa-arrow-circle-o-left fa-3x" aria-hidden="true"></i></span>
+            <span><a href="#" onClick="history.go(-1);return true;"><i class="fa fa-arrow-circle-o-left fa-3x" aria-hidden="true"></i></a></span>
           </div>
           <div class="col-xs-12">
             <span><i class="fa fa-bars fa-3x" aria-hidden="true"></i></span>
@@ -42,7 +39,10 @@
     <div class="row facts-nav">
       <div class="col-xs-12 col-lg-4 header-para header-para-resources">
         <blockquote>
-          <p style="font-size: 2.2rem"><strong><i class="fa fa-download fa-fw fa-3x" aria-hidden="true"></i><span style="font-size:5rem">Resources:</strong></span><br>We have been campaigning for a long time.<br><br>During this time we have collected a lot of information about the extent of inequality, who is most affected and how decisions have been made.<br><br><strong>Find out more...</strong>
+          <p style="font-size: 2.2rem"><i class="fa fa-download fa-fw fa-3x" aria-hidden="true"></i>
+          <span style="font-size:5rem"><strong>Resources:</strong></span><br>We have been campaigning for a long time.
+          <br><br>During this time we have collected a lot of information about the
+            extent of inequality, who is most affected and how decisions have been made.<br><br><strong>Find out more...</strong>
           </p>
         </blockquote>
       </div>
@@ -53,22 +53,136 @@
       <ul id="nav-facts" class="list-inline facts-row">
         <li class="col-xs-6 col-sm-6 col-lg-4 facts-row foi-image">
           <h3><strong>Freedom of Information Requets</strong></h3>
-          <i class="fa fa-download fa-2x resource-link" aria-hidden="true"></i>
+          <!--Trigger Model Button-->
+          <button type="button" class="btn btn-primary entry-modal-button resources-button" data-toggle="modal" data-target="#foiRequests">
+          More...
+          </button>
+          <!--Modal-->
+          <div class="modal fade" id="foiRequests" tabindex="-1" role="dialog" aria-labelledby="foiRequestsTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <p class="modal-title" id="foiRequestsTitle">Nigel Dodds MP and the DUP</p>
+                  <button type="button" class="close" style="font-size:3rem" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body modal-background">
+                  In 2000, recognising the extent of persisting religious inequality in social housing in North Belfast, the SDLP made a public call for a housing strategy.<br>Nigel Dodds, MP for north Belfast stated:<br><br>
+                  <blockquote style="border-left:.5rem solid #000000">
+                    <em>“The reality is that ordinary Protestants on the ground have seen the area being run down and neglected over the years, 
+                  having been forced out by the IRA and Sinn Fein Hitlerite Nazi tactics. What we are now seeing is demands led by 
+                  nationalist politicians to take away the peace lines – <strong>it’s a recipe for civil war.</strong></em>”
+                  </blockquote>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success modal-button" data-dismiss="modal">More information</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </li>
+
+
 
         <li class="col-xs-6 col-sm-6 col-lg-4 facts-row media-image">
           <h3>Media</h3>
-          <i class="fa fa-download fa-2x resource-link" aria-hidden="true"></i>
+          <!--Trigger Model Button-->
+          <button type="button" class="btn btn-primary entry-modal-button resources-button" data-toggle="modal" data-target="#media">
+          More...
+          </button>
+          <!--Modal-->
+          <div class="modal fade" id="media" tabindex="-1" role="dialog" aria-labelledby="mediaTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <p class="modal-title" id="mediaTitle">Media</p>
+                  <button type="button" class="close" style="font-size:3rem" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body modal-background">
+                  In 2000, recognising the extent of persisting religious inequality in social housing in North Belfast, the SDLP made a public call for a housing strategy.<br>Nigel Dodds, MP for north Belfast stated:<br><br>
+                  <blockquote style="border-left:.5rem solid #000000">
+                    <em>“The reality is that ordinary Protestants on the ground have seen the area being run down and neglected over the years, 
+                  having been forced out by the IRA and Sinn Fein Hitlerite Nazi tactics. What we are now seeing is demands led by 
+                  nationalist politicians to take away the peace lines – <strong>it’s a recipe for civil war.</strong></em>”
+                  </blockquote>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success modal-button" data-dismiss="modal">More information</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </li>
 
         <li class="col-xs-6 col-sm-6 col-lg-4 facts-row reports-image">
           <h3>Reports & Infographs</h3>
-          <i class="fa fa-download fa-2x resource-link" aria-hidden="true"></i>
+          <!--Trigger Model Button-->
+          <button type="button" class="btn btn-primary entry-modal-button resources-button" data-toggle="modal" data-target="#reports">
+          More...
+          </button>
+          <!--Modal-->
+          <div class="modal fade" id="reports" tabindex="-1" role="dialog" aria-labelledby="reportsTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <p class="modal-title" id="reportsTitle">Nigel Dodds MP and the DUP</p>
+                  <button type="button" class="close" style="font-size:3rem" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body modal-background">
+                  In 2000, recognising the extent of persisting religious inequality in social housing in North Belfast, the SDLP made a public call for a housing strategy.<br>Nigel Dodds, MP for north Belfast stated:<br><br>
+                  <blockquote style="border-left:.5rem solid #000000">
+                    <em>“The reality is that ordinary Protestants on the ground have seen the area being run down and neglected over the years, 
+                  having been forced out by the IRA and Sinn Fein Hitlerite Nazi tactics. What we are now seeing is demands led by 
+                  nationalist politicians to take away the peace lines – <strong>it’s a recipe for civil war.</strong></em>”
+                  </blockquote>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success modal-button" data-dismiss="modal">More information</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </li>
 
         <li class="col-xs-6 col-sm-6 col-lg-4 facts-row morehillview-image">
           <h3>More on Hillview</h3>
-          <i class="fa fa-download fa-2x resource-link" aria-hidden="true"></i>
+          <!--Trigger Model Button-->
+          <button type="button" class="btn btn-primary entry-modal-button resources-button" data-toggle="modal" data-target="#more-hillview">
+          More...
+          </button>
+          <!--Modal-->
+          <div class="modal fade" id="more-hillview" tabindex="-1" role="dialog" aria-labelledby="more-hillviewTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <p class="modal-title" id="more-hillviewTitle">Nigel Dodds MP and the DUP</p>
+                  <button type="button" class="close" style="font-size:3rem" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body modal-background">
+                  In 2000, recognising the extent of persisting religious inequality in social housing in North Belfast, the SDLP made a public call for a housing strategy.<br>Nigel Dodds, MP for north Belfast stated:<br><br>
+                  <blockquote style="border-left:.5rem solid #000000">
+                    <em>“The reality is that ordinary Protestants on the ground have seen the area being run down and neglected over the years, 
+                  having been forced out by the IRA and Sinn Fein Hitlerite Nazi tactics. What we are now seeing is demands led by 
+                  nationalist politicians to take away the peace lines – <strong>it’s a recipe for civil war.</strong></em>”
+                  </blockquote>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success modal-button" data-dismiss="modal">More information</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </li>
       </ul>
     </div>
@@ -80,7 +194,7 @@
 
   <footer>
     <div class="row">
-      <a href="index.html">
+      <a target="_blank" href="https://www.pprproject.org/">
         <div class="col-xs-4 col-sm-4 logo"></div>
       </a>
       <div class="col-xs-8 col-sm-4">
@@ -89,9 +203,9 @@
       <div class="col-xs-12 col-sm-4 social-media-txt-box">
         <h5>STAY INFORMED</h5>
         <ul id="social-media-logos" class="list-inline social-links">
-          <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
+          <li><a target="_blank" href="https://www.facebook.com/pprproject"><i class="fa fa-facebook"></i></a></li>
+          <li><a target="_blank" href="https://twitter.com/PPR_Org"><i class="fa fa-twitter"></i></a></li>
+          <li><a target="_blank" href="http://www.youtube.com/user/PPRProject?sub_confirmation=1"><i class="fa fa-youtube"></i></a></li>
         </ul>
       </div>
     </div>
