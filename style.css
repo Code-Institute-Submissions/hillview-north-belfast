@@ -159,9 +159,6 @@ p {
 }
 
 
-
-
-
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Animations & Transitions*/
 
 .fade-logos {
@@ -170,14 +167,6 @@ p {
 
 .fade-logos:hover {
     opacity: 1;
-}
-
-.front-logos {
-    z-index: 99999;
-}
-
-.back-logos {
-    z-index: 0;
 }
 
 a:hover {
