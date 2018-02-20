@@ -1,6 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Roboto+Condensed:100,200,300,400,500,600,700|Barlow+Semi+Condensed:100,200,300,400,500,600,700|News+Cycle:100,300,400');
 
 
+/*Landing Alert*/
+#landing-alert {
+  font-size: 4rem;
+  font-weight: 200;
+  font-family: "Roboto";
+  color: #fff;
+  background-color: #000;
+  box-shadow: 12px 10px 9px #525050;
+  width: 70%;
+  font-size: 2.8rem;
+  position: fixed;
+  top: 20%;
+  left: 30%;
+  z-index: 10; }
 
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Margins and Padding*/
@@ -169,10 +183,6 @@ p {
     opacity: 1;
 }
 
-a:hover {
-    color: #000000;
-     text-decoration: none; 
-}
 
 .page-pads:before {
     content: '';
@@ -190,6 +200,11 @@ a:hover {
 
 .page-pads:hover:before {
     width: 100%;
+}
+
+a:hover {
+    color: #000000;
+     text-decoration: none; 
 }
 
 
@@ -341,24 +356,31 @@ a:hover {
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Nav Buttons*/
 
 .fa-arrow-circle-o-left {
-    color: #000000;
-    /*opacity: .4;*/
+    color: #fafafa;
     position: fixed;
     top: 3%;
     left: 88%;
-    z-index: 10;
+    z-index: 1;
+    opacity: .8;
 }
 
+.fa-arrow-circle-o-left:hover {
+    opacity: 1;
+}
+
+
 .fa-bars {
-    color: #000000;
-    /*opacity: .7;*/
+    color: #fafafa;
     position: fixed;
     top: 10%;
     left: 88%;
-    z-index: 10;
+    z-index: 2;
+    opacity: .8;
 }
 
-
+.fa-bars:hover {
+    opacity: 1;
+}
 
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Modal*/
@@ -683,10 +705,6 @@ hr {
         font-size: 5rem;
         color: #000000;
         padding: 1rem;
-    }
-
-    #social-media-logos {
-        text-align: center;
     }
 
 }
