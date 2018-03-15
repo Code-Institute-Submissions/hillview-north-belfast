@@ -27,7 +27,7 @@ To provide:
 
 ### Functionality
 <ul>
-<li>The website consists of seven pages, all accessible from the home page which is
+<li>The website consists of seven pages, all accessible from the home page which
 doubles as navigation (reachable through fixed 'Back' and 'Home' icons)</li>
 
 <li>Information is presented in progressively in larger amounts, accessible at the 
