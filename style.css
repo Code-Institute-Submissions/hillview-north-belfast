@@ -1,20 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Roboto+Condensed:100,200,300,400,500,600,700|Barlow+Semi+Condensed:100,200,300,400,500,600,700|News+Cycle:100,300,400');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Roboto+Condensed:100,200,300,400,500,600,700|Barlow+Semi+Condensed:100,200,300,400,500,600,700|News+Cycle:100,300,400|Bangers');
 
 /*Landing Alert*/
+
 #landing-alert {
-  font-size: 4rem;
-  font-weight: 200;
-  font-family: "Roboto";
-  color: #fff;
-  background-color: #000;
-  box-shadow: 12px 10px 9px #525050;
-  width: 70%;
-  font-size: 2.8rem;
-  position: fixed;
-  top: 20%;
-  left: 30%;
-  z-index: 10; }
+    background-color: #000;
+    -webkit-box-shadow: 12px 10px 9px #525050;
+    -moz-box-shadow: 12px 10px 9px #525050;
+    box-shadow: 12px 10px 9px #525050;
+    width: 80%;
+    position: fixed;
+    height: 50%;
+    top: 25%;
+    left: 10%;
+    z-index: 10;
+    border-radius: 25px;
+    border-color: #000;
+    line-height: 1;
+    background-image: url("/images/logo2.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 50% 90%;
+
+}
+
 
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Margins and Padding*/
@@ -50,6 +58,17 @@ blockquote {
 
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Headings and Paragraphs*/
+
+.landing-font {
+    font-family: 'Bangers', 'Sans-serif';
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    vertical-align: auto;
+    font-size: 3rem;
+    margin-top: 1rem;
+
+}
 
 h1 {
     font-family: "Roboto", sans-serif;
@@ -97,6 +116,8 @@ p {
     text-align: left;
     line-height: 1.1;
 }
+
+
 
 .contact-form {
     font-family: "Roboto Condensed";
@@ -204,7 +225,7 @@ p {
 
 a:hover {
     color: #000000;
-     text-decoration: none; 
+    text-decoration: none;
 }
 
 
@@ -255,6 +276,12 @@ a:hover {
     background-size: contain;
     margin-bottom: 3rem;
     min-height: 12.5rem;
+}
+
+.logo_PPR {
+    height: 13rem;
+    float: left;
+    margin-right: 2rem;
 }
 
 .support-image {
@@ -600,6 +627,8 @@ hr {
 
 @media(min-width: 768px) {
 
+
+
     /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> min-width: 768px - Margins and Padding*/
     #nav {
         padding-left: 5vw;
@@ -607,6 +636,11 @@ hr {
     }
 
     /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> min-width: 768px - Header and Paragraph Styling*/
+    .landing-font {
+        font-size: 5rem;
+
+    }
+
     h1 {
         font-size: 14rem;
         margin-bottom: -9.4rem;
@@ -665,6 +699,10 @@ hr {
         min-height: 22.5rem;
     }
 
+    .logo_PPR {
+        height: 13rem;
+    }
+
     /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>min-width: 768px - Nav Buttons*/
     .fa-arrow-circle-o-left {
         font-size: 8rem;
@@ -714,6 +752,7 @@ hr {
 
 @media(min-width: 1200px) {
 
+
     /*>>>>>>>>>>>>>>>>>>>>>>>min-width: 1200px - Padding and Margins*/
     .main-nav {
         padding-top: 5rem;
@@ -736,6 +775,11 @@ hr {
     }
 
     /*>>>>>>>>>>>>>>>>>>>>>>>min-width: 1200px - Header and Paragraph Styling*/
+    .landing-font {
+        font-size: 5rem;
+
+    }
+
     h1 {
         font-size: 23rem;
         margin-bottom: -14rem;
@@ -821,6 +865,10 @@ hr {
     .header-para {
         margin-top: 6rem;
         margin-right: 2rem;
+    }
+
+    .logo_PPR {
+        height: 13rem;
     }
 
 }
