@@ -4,9 +4,9 @@
 ## Overview
 This project was produced in conjunction with the human rights organisation
 Participation and the Practice of Rights (PPR). The website aims to capitalise
-on recent media exposure (February 2018) to one of their housing campaigns
-by providing further information, recruiting supporters and establishing 
-new information sources.
+on recent media exposure (March 2018) to one of their housing campaigns
+by providing further information which was not covered in a BBC Soptlight
+30 minute documentary, recruiting supporters and establishing new information sources.
 
 <hr>
 
@@ -25,30 +25,44 @@ To provide:
 </ol>
 
 
-### Functionality
+### Design Approach and Functionality
 <ul>
-<li>The website consists of seven pages, all accessible from the home page which
-doubles as navigation (reachable through fixed 'Back' and 'Home' icons)</li>
+<li>The website consists of seven pages, all of which are directly accessible from the home page which
+doubles up as a site navigation (reachable on every page  through fixed floating 'Back' and 'Home' icons)</li>
 
-<li>Information is presented in progressively in larger amounts, accessible at the 
+<li>All information is accessible within three user clicks</li>
+
+<li>Information is presented in progressively larger amounts, accessible at the 
 searcher's discretion (reachable through a) modals, b) links, c) Resources page)</li>
 
-<li>Information provided through a wide range of forms (website synopsis, article and 
-video links, donwloadable documents and audio files)</li>
+<li>Information is provided through a wide range of forms (introductory synopsis, links to articles
+in external publications, embedded youtube videos, audio donwloads of relevant media
+interviews and downloadable freedom of information documents and campaign materials, reports
+and inforgraphs</li>
 
-<li>Action is channeled through the development of social meda support (a call-out
-for followers and twitter profile picture change to campaign logo)</li>
+<li>Users are encouraged to take action through a number of small but useful avenues: 
+following the campaign's social meda outlets support, adaopting the campaign logo as
+user's twitter profile image, and getting in touch with campaign organisers to provide or 
+access information related to housing inequality</li>
 
-<li>'Contact Us' page provides direct email service to reach campaign organisers</li>
+<li>A 'Contact Us' page provides direct email service to reach campaign organisers</li>
 
-<li>Large fonts & sections, color-coded navigation with hovers used to create an 
-informative and enjoyable experience</li>
+<li>Large fonts & imagery are used to convey the campaign message with simplicity and clarity
+while a quality UX</li>
+
+<li>The website is to function as a temporary landing page for the <a href='https://www.pprproject.org'>
+PPR organisation</a> and a 'pop-up' landing alert is used on the Home Page to enable 
+users to proceed directly to PPR's home site.</li>
+
 </ul>
 
 ### Technologies
-Boostrap
-Emailjs
-Youtube
+<p>The website is coded primarily in HTML5 and CSS languages (including usage of the 
+Bootstrap Framework)</p>
+<p>The email functionality embedded into the Contact Us page is provided through the 
+<a href="https://www.emailjs.com">EmailJS</a> service.</p>  
+<p>Javascript jQuery is employed to handle the 'pop-up' landing alert on the Home Page.</p> 
+
 
 
 
