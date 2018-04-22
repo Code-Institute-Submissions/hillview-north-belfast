@@ -5,7 +5,7 @@
 This project was produced in conjunction with the human rights organisation
 Participation and the Practice of Rights (PPR). The website aims to capitalise
 on recent media exposure (March 2018) to one of their housing campaigns
-by providing further information which was not covered in a BBC Soptlight
+by providing further information which was not covered in a BBC Spotlight
 30 minute documentary, recruiting supporters and establishing new information sources.
 
 <hr>
@@ -14,10 +14,10 @@ by providing further information which was not covered in a BBC Soptlight
 To provide: 
 <ol>
     <li>accessible information for the casual (e.g. members of the public) 
-    searcher (e.g journalist)</li>
-    <li>accessible information for the detailed searcher (e.g policy & researcg 
+    searcher (e.g. journalist)</li>
+    <li>accessible information for the detailed searcher (e.g policy & research 
     officers)</li>
-    <li>a 'go to' source for people seeking to work collboratively 
+    <li>a 'go to' source for people seeking to work collaboratively 
     (e.g. journalists</li>
     <li>a straightforward way for people to take action</li>
     <li>a means to generate new contacts</li>
@@ -36,13 +36,13 @@ doubles up as a site navigation (reachable on every page  through fixed floating
 searcher's discretion (reachable through a) modals, b) links, c) Resources page)</li>
 
 <li>Information is provided through a wide range of forms (introductory synopsis, links to articles
-in external publications, embedded youtube videos, audio donwloads of relevant media
+in external publications, embedded youtube videos, audio downloads of relevant media
 interviews and downloadable freedom of information documents and campaign materials, reports
-and inforgraphs</li>
+and infographs</li>
 
 <li>Users are encouraged to take action through a number of small but useful avenues: 
-following the campaign's social meda outlets support, adaopting the campaign logo as
-user's twitter profile image, and getting in touch with campaign organisers to provide or 
+following the campaign's social meda outlets support, adopting the campaign logo as
+user's temporary twitter profile image, and getting in touch with campaign organisers to provide or 
 access information related to housing inequality</li>
 
 <li>A 'Contact Us' page provides direct email service to reach campaign organisers</li>
