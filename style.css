@@ -20,12 +20,9 @@
     background-repeat: no-repeat;
     background-size: auto;
     background-position: 50% 90%;
-
 }
 
-
-
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Margins and Padding*/
+/*Margins and Padding*/
 
 body {
     margin: 0;
@@ -54,10 +51,7 @@ blockquote {
     margin: 0;
 }
 
-
-
-
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Headings and Paragraphs*/
+/*Headings and Paragraphs*/
 
 .landing-font {
     font-family: 'Bangers', 'Sans-serif';
@@ -67,7 +61,6 @@ blockquote {
     vertical-align: auto;
     font-size: 3rem;
     margin-top: 1rem;
-
 }
 
 h1 {
@@ -117,8 +110,6 @@ p {
     line-height: 1.1;
 }
 
-
-
 .contact-form {
     font-family: "Roboto Condensed";
     font-weight: 500;
@@ -133,7 +124,6 @@ p {
     color: #FFFFFF;
     text-align: left;
     line-height: 1.1;
-
 }
 
 .panel-body {
@@ -193,8 +183,7 @@ p {
     opacity: .8;
 }
 
-
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Animations & Transitions*/
+/*Animations & Transitions*/
 
 .fade-logos {
     opacity: .50;
@@ -203,7 +192,6 @@ p {
 .fade-logos:hover {
     opacity: 1;
 }
-
 
 .page-pads:before {
     content: '';
@@ -218,7 +206,6 @@ p {
     transition: all .2s step-start;
 }
 
-
 .page-pads:hover:before {
     width: 100%;
 }
@@ -228,10 +215,7 @@ a:hover {
     text-decoration: none;
 }
 
-
-
-
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Images & Logos*/
+/*Images & Logos*/
 
 #background {
     background-image: url(../images/ecwscale.jpg);
@@ -325,8 +309,7 @@ a:hover {
     left: 75%;
 }
 
-
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Background Colours*/
+/*Background Colours*/
 
 .header-para-facts-color {
     background-color: #B8977E;
@@ -377,10 +360,7 @@ a:hover {
     z-index: 1050;
 }
 
-
-
-
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Nav Buttons*/
+/*Nav Buttons*/
 
 .fa-arrow-circle-o-left {
     color: #fafafa;
@@ -395,7 +375,6 @@ a:hover {
     opacity: 1;
 }
 
-
 .fa-bars {
     color: #fafafa;
     position: fixed;
@@ -409,8 +388,7 @@ a:hover {
     opacity: 1;
 }
 
-
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Modal*/
+/*Modal*/
 
 .entry-modal-button {
     font-family: "Roboto Condensed", sans-serif;
@@ -465,10 +443,7 @@ a:hover {
     font-family: "Roboto", sans-serif;
 }
 
-
-
-
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <main> - HOME*/
+/*<main> - HOME*/
 
 .menu-item {
     height: 13vh;
@@ -496,10 +471,7 @@ a:hover {
     font-size: 4rem;
 }
 
-
-
-
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <main> - FACTS*/
+/*<main> - FACTS*/
 
 .fact-txt {
     height: 20vh;
@@ -507,10 +479,7 @@ a:hover {
     line-height: 1.1;
 }
 
-
-
-
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <main> - IMPACT*/
+/* <main> - IMPACT*/
 
 .video-container iframe {
     position: relative;
@@ -520,7 +489,7 @@ a:hover {
     height: 90%;
 }
 
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <main> - CONTACT US*/
+/* <main> - CONTACT US*/
 
 input[type=text] {
     width: 100%;
@@ -577,10 +546,7 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-
-
-
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <main> - WHAT YOU CAN DO*/
+/* <main> - WHAT YOU CAN DO*/
 
 .panel-default>.panel-heading {
     height: 6vh;
@@ -597,8 +563,7 @@ input[type=submit]:hover {
     height: 100px;
 }
 
-
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <main> Footer*/
+/* <main> Footer*/
 
 .social-links li a i {
     font-size: 5rem;
@@ -620,25 +585,21 @@ hr {
     width: 75%
 }
 
-
-
-
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Media Queries*/
+/*Media Queries*/
 
 @media(min-width: 768px) {
 
 
 
-    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> min-width: 768px - Margins and Padding*/
+    /*min-width: 768px - Margins and Padding*/
     #nav {
         padding-left: 5vw;
         padding-right: 5vw;
     }
 
-    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> min-width: 768px - Header and Paragraph Styling*/
+    /*min-width: 768px - Header and Paragraph Styling*/
     .landing-font {
         font-size: 5rem;
-
     }
 
     h1 {
@@ -694,7 +655,7 @@ hr {
         font-weight: 300;
     }
 
-    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> min-width: 768px - Images & Logos*/
+    /*min-width: 768px - Images & Logos*/
     .logo {
         min-height: 22.5rem;
     }
@@ -703,7 +664,7 @@ hr {
         height: 13rem;
     }
 
-    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>min-width: 768px - Nav Buttons*/
+    /*min-width: 768px - Nav Buttons*/
     .fa-arrow-circle-o-left {
         font-size: 8rem;
         top: .5%;
@@ -714,10 +675,9 @@ hr {
         top: 10%
     }
 
-    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>min-width: 768px - <main> - HOME*/
+    /*min-width: 768px - <main> - HOME*/
     #nav li {
         height: 20vh;
-
     }
 
     .menu-item a i {
@@ -727,7 +687,7 @@ hr {
         font-size: 8rem;
     }
 
-    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>min-width: 768px - <main> - RESOURCES*/
+    /*min-width: 768px - <main> - RESOURCES*/
     .resource-link {
         position: absolute;
         top: 70%;
@@ -738,25 +698,21 @@ hr {
         font-size: 4em;
     }
 
-    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>min-width: 768px - <footer>*/
+    /*min-width: 768px - <footer>*/
     .social-links li a i {
         font-size: 5rem;
         color: #000000;
         padding: 1rem;
     }
-
 }
-
-
 
 
 @media(min-width: 1200px) {
 
 
-    /*>>>>>>>>>>>>>>>>>>>>>>>min-width: 1200px - Padding and Margins*/
+    /*min-width: 1200px - Padding and Margins*/
     .main-nav {
         padding-top: 5rem;
-
     }
 
     #nav {
@@ -766,7 +722,6 @@ hr {
 
     .facts-nav {
         padding-top: 5rem;
-
     }
 
     #nav-facts {
@@ -774,10 +729,9 @@ hr {
         padding-right: 5vw;
     }
 
-    /*>>>>>>>>>>>>>>>>>>>>>>>min-width: 1200px - Header and Paragraph Styling*/
+    /*min-width: 1200px - Header and Paragraph Styling*/
     .landing-font {
         font-size: 5rem;
-
     }
 
     h1 {
@@ -797,7 +751,6 @@ hr {
         margin-left: 16rem;
     }
 
-
     h5 {
         font-size: 3rem
     }
@@ -813,7 +766,6 @@ hr {
         color: #FFFFFF;
         text-align: left;
         line-height: 1.1;
-
     }
 
     .title {
@@ -835,7 +787,7 @@ hr {
         padding-top: 2rem;
     }
 
-    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>min-width: 1200px - Nav Buttons*/
+    /*min-width: 1200px - Nav Buttons*/
     .fa-arrow-circle-o-left {
         font-size: 10rem;
     }
@@ -845,7 +797,7 @@ hr {
         top: 15%
     }
 
-    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>min-width: 1200px - <main> - HOME*/
+    /*min-width: 1200px - <main> - HOME*/
     blockquote {
         margin-top: 3rem;
         padding-right: 1.5rem;
@@ -870,5 +822,4 @@ hr {
     .logo_PPR {
         height: 13rem;
     }
-
 }
