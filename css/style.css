@@ -1,0 +1,808 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Roboto+Condensed:100,200,300,400,500,600,700|Barlow+Semi+Condensed:100,200,300,400,500,600,700|News+Cycle:100,300,400|Bangers');
+
+
+/*Margins and Padding*/
+
+body {
+    margin: 0;
+}
+
+.container-fluid {
+    margin: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+.header-para {
+    padding-right: 0;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    opacity: .75;
+}
+
+blockquote {
+    padding-right: 0;
+}
+
+#nav-facts {
+    margin: 0;
+}
+
+/*Headings and Paragraphs*/
+
+.landing-font {
+    font-family: 'Bangers', 'Sans-serif';
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    vertical-align: baseline;
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 7.3rem;
+    font-weight: 700;
+    padding: 0;
+    color: #FFFFFF;
+    margin-bottom: -48px;
+    margin-top: .5rem;
+    margin-left: -1.5rem;
+}
+
+h3 {
+    font-family: "News Cycle", sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 2vh;
+    padding-left: .5rem;
+}
+
+h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: #0B1D23;
+    opacity: .7;
+    margin-left: 4.3rem;
+}
+
+h5 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 3rem;
+    color: #000000;
+    font-weight: 300;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #FFFFFF;
+    text-align: left;
+    line-height: 1.1;
+}
+
+.contact-form {
+    font-family: "Roboto Condensed";
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #fafafa;
+}
+
+input,
+textarea {
+    color: #000;
+}
+
+#action-intro {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #FFFFFF;
+    text-align: left;
+    line-height: 1.1;
+}
+
+.panel-body {
+    font-family: "News Cycle", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 0;
+    background-color: #f0fcf1;
+}
+
+.title {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+    text-align: left;
+    font-size: 3rem;
+}
+
+.subtitle {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    position: relative;
+    top: 2rem;
+    left: 6.5rem;
+    text-align: left;
+}
+
+.facts-row {
+    height: 30vh;
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: left;
+    padding: .5rem;
+}
+
+.footer-text {
+    position: relative;
+    top: .3rem;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    opacity: .8;
+    color: #000000;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: left;
+    line-height: 1;
+}
+
+.contact-footer {
+    color: #ffffff;
+    opacity: .8;
+}
+
+/*Animations & Transitions*/
+
+.fade-logos {
+    opacity: .50;
+}
+
+.fade-logos:hover {
+    opacity: 1;
+}
+
+.page-pads:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: .3;
+    border-radius: 5px;
+    transition: all .2s step-start;
+}
+
+.page-pads:hover:before {
+    width: 100%;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+/*Images & Logos*/
+
+#background {
+    background-image: url("/images/ecwscale.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.mccdodds-image {
+    background-image: url("/images/mcdoddscropped.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: .25rem solid #a98bd7;
+}
+
+.boyd-image {
+    background-image: url("/images/killultaghcropped.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: .25rem solid #a98bd7;
+}
+
+.nihe-image {
+    background-image: url("/images/NIHE.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: .25rem solid #a98bd7;
+}
+
+.bcc-image {
+    background-image: url("/images/BCClogo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: .25rem solid #a98bd7;
+}
+
+.logo {
+    background: url("../images/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 3rem;
+    min-height: 12.5rem;
+}
+
+.logo_PPR {
+    height: 13rem;
+    float: left;
+    margin-right: 2rem;
+}
+
+.support-image {
+    background-image: url("/images/UNsupport.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: .25rem solid #a98bd7;
+}
+
+.media-image {
+    background-image: url("/images/media.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: .25rem solid #a98bd7;
+}
+
+.reports-image {
+    background-image: url("/images/infograph.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: .25rem solid #a98bd7;
+}
+
+.morehillview-image {
+    background-image: url("/images/ECWHillview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: .25rem solid #a98bd7;
+}
+
+.foi-image {
+    background-image: url("/images/foi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: .25rem solid #a98bd7;
+}
+
+.resource-link {
+    position: absolute;
+    top: 80%;
+    left: 75%;
+}
+
+/*Background Colours*/
+
+.header-para-facts-color {
+    background-color: #B8977E;
+}
+
+.header-para-impact-color {
+    background-color: #FFBA5C;
+}
+
+.header-para-resources {
+    background-color: #77D353;
+}
+
+.header-para-contactus {
+    background-color: #4169e1;
+}
+
+.header-para-cando {
+    background-color: #F95F62;
+}
+
+.ul-menu-color-facts {
+    background-color: #B8977E;
+    opacity: .75;
+}
+
+.ul-menu-color-impact {
+    background-color: #FFBA5C;
+    opacity: .75;
+}
+
+.ul-menu-color-can-do {
+    background-color: #F95F62;
+    opacity: .75;
+}
+
+.ul-menu-color-resources {
+    background-color: #77D353;
+    opacity: .75;
+}
+
+.modal-background {
+    background-color: #f4e7e4;
+    font-size: 1.7rem;
+    color: #000000;
+    line-height: 1.428571;
+    font-family: "Roboto Condensed", sans-serif;
+    z-index: 1050;
+}
+
+/*Nav Buttons*/
+
+.fa-arrow-circle-o-left {
+    color: #fafafa;
+    position: fixed;
+    top: 3%;
+    left: 88%;
+    z-index: 1;
+    opacity: .8;
+}
+
+.fa-arrow-circle-o-left:hover {
+    opacity: 1;
+}
+
+.fa-bars {
+    color: #fafafa;
+    position: fixed;
+    top: 10%;
+    left: 88%;
+    z-index: 2;
+    opacity: .8;
+}
+
+.fa-bars:hover {
+    opacity: 1;
+}
+
+/*Modal*/
+
+.entry-modal-button {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    opacity: .80;
+    border: solid .1rem #9c816d;
+    margin-bottom: 0;
+    font-size: 2rem;
+    position: absolute;
+    top: 77%;
+    left: 2%;
+}
+
+.entry-modal-button:hover {
+    background-color: #976DD0;
+}
+
+.facts-button {
+    background-color: #B8977E;
+}
+
+.resources-button {
+    background-color: #77D353;
+}
+
+.impact-button {
+    background-color: #FFBA5C;
+}
+
+.modal {
+    width: 80%;
+}
+
+.modal-header {
+    padding-top: 2rem;
+    padding-bottom: 0;
+    margin: 0 auto;
+    background-color: #f4e7e4;
+}
+
+.modal-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    color: #000000;
+    font-weight: 400;
+    text-align: left;
+}
+
+.modal-button {
+    background-color: #77D353;
+    border-color: #77D353;
+    font-family: "Roboto", sans-serif;
+}
+
+/*<main> - HOME*/
+
+.menu-item {
+    height: 15vh;
+    padding: 0;
+    line-height: 1;
+}
+
+#nav li {
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    padding-left: 0rem;
+    padding-top: 0rem;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu-item a i {
+    position: relative;
+    top: 1rem;
+    left: 1.5rem;
+    color: #fafafa;
+    font-size: 4rem;
+}
+
+/*<main> - FACTS*/
+
+.fact-txt {
+    height: 20vh;
+    margin-top: .5rem;
+    line-height: 1.1;
+}
+
+/* <main> - IMPACT*/
+
+.video-container iframe {
+    position: relative;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+/* <main> - CONTACT US*/
+
+input[type=text] {
+    width: 100%;
+    padding: .5rem;
+    margin: 1rem 0;
+    display: inline-block;
+    border: 1px solid #4169e1;
+    border-radius: .5rem;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: .5rem;
+    margin: 1rem 0;
+    display: inline-block;
+    border: .2rem solid #4169e1;
+    border-radius: .5rem;
+    box-sizing: border-box;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: .5rem;
+    margin: 1rem 0;
+    display: inline-block;
+    border: .2rem solid #4169e1;
+    border-radius: .5rem;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: .5rem;
+    margin: 1rem 0;
+    display: inline-block;
+    border: .2rem solid #4169e1;
+    border-radius: .5rem;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 40%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* <main> - WHAT YOU CAN DO*/
+
+.panel-default>.panel-heading {
+    background-color: #009688;
+    height: 11vh;
+    border-color: transparent;
+}
+
+.act-now {
+    margin-top: 2rem;
+}
+
+.action-logos {
+    height: 100px;
+}
+
+/* <main> Footer*/
+
+.social-links li a i {
+    font-size: 5rem;
+    color: #000000;
+    padding-bottom: 2rem;
+    padding: 2rem;
+}
+
+.social-media-txt-box {
+    text-align: center;
+}
+
+#social-media-logos {
+    text-align: center;
+}
+
+
+hr {
+    width: 75%
+}
+
+/*Media Queries*/
+
+@media(min-width: 768px) {
+
+
+
+    /*min-width: 768px - Margins and Padding*/
+    #nav {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    /*min-width: 768px - Header and Paragraph Styling*/
+    .landing-font {
+        font-size: 5rem;
+    }
+
+    h1 {
+        font-size: 14rem;
+        margin-bottom: -9.4rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+        text-align: left;
+        padding-top: 10vh;
+        padding-left: .5rem;
+    }
+
+    h4 {
+        font-size: 7rem;
+        margin-left: 10rem;
+    }
+
+    h5 {
+        font-size: 3rem;
+        color: #000000;
+        font-weight: 600;
+        margin-top: 4rem;
+    }
+
+    #action-intro {
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 3rem;
+        font-weight: 100;
+        color: #FFFFFF;
+        text-align: left;
+        line-height: 1.1;
+    }
+
+    .title {
+        font-weight: 700;
+        top: 0rem;
+        left: 3rem;
+    }
+
+    .subtitle {
+        font-weight: 500;
+        font-size: 2rem;
+        top: 4rem;
+        left: 1.5rem;
+    }
+
+    .footer-text {
+        font-size: 2.2rem;
+        padding-top: 3rem;
+        text-align: center;
+        font-weight: 300;
+    }
+
+    /*min-width: 768px - Images & Logos*/
+    .logo {
+        min-height: 22.5rem;
+    }
+
+    .logo_PPR {
+        height: 13rem;
+    }
+
+    /*min-width: 768px - Nav Buttons*/
+    .fa-arrow-circle-o-left {
+        font-size: 8rem;
+        top: .5%;
+    }
+
+    .fa-bars {
+        font-size: 8rem;
+        top: 10%
+    }
+
+    /*min-width: 768px - <main> - HOME*/
+    #nav li {
+        height: 25vh;
+    }
+
+    .menu-item a i {
+        position: relative;
+        top: 2rem;
+        left: 2rem;
+        font-size: 8rem;
+    }
+
+    /*min-width: 768px - <main> - RESOURCES*/
+    .resource-link {
+        position: absolute;
+        top: 70%;
+        left: 75%;
+    }
+
+    .fa-2x {
+        font-size: 4em;
+    }
+
+    /*min-width: 768px - <footer>*/
+    .social-links li a i {
+        font-size: 5rem;
+        color: #000000;
+        padding: 1rem;
+    }
+}
+
+
+@media(min-width: 1200px) {
+
+
+    /*min-width: 1200px - Padding and Margins*/
+    .main-nav {
+        padding-top: 5rem;
+    }
+
+    #nav {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .facts-nav {
+        padding-top: 5rem;
+    }
+
+    #nav-facts {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    /*min-width: 1200px - Header and Paragraph Styling*/
+    .landing-font {
+        font-size: 5rem;
+    }
+
+    h1 {
+        font-size: 23rem;
+        margin-bottom: -14rem;
+    }
+
+    h3 {
+        font-size: 3.5rem;
+        text-align: left;
+        padding-top: 7vh;
+        padding-left: .5rem;
+    }
+
+    h4 {
+        font-size: 11rem;
+        margin-left: 16rem;
+    }
+
+    h5 {
+        font-size: 3rem
+    }
+
+    p {
+        font-size: 3rem;
+    }
+
+    #action-intro {
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 3rem;
+        font-weight: 100;
+        color: #FFFFFF;
+        text-align: left;
+        line-height: 1.1;
+    }
+
+    .title {
+        font-weight: 700;
+        top: 1rem;
+        left: 3rem;
+    }
+
+    .subtitle {
+        font-weight: 600;
+        font-size: 2rem;
+        top: 6rem;
+        left: 2rem;
+    }
+
+    .footer-text {
+        opacity: .8;
+        font-size: 3rem;
+        padding-top: 2rem;
+    }
+
+    /*min-width: 1200px - Nav Buttons*/
+    .fa-arrow-circle-o-left {
+        font-size: 10rem;
+    }
+
+    .fa-bars {
+        font-size: 10rem;
+        top: 15%
+    }
+
+    /*min-width: 1200px - <main> - HOME*/
+    blockquote {
+        margin-top: 3rem;
+        padding-right: 1.5rem;
+    }
+
+    #nav li {
+        height: 26vh;
+    }
+
+    .menu-item a i {
+        position: relative;
+        top: 3rem;
+        left: 2.5rem;
+        font-size: 8rem;
+    }
+
+    .header-para {
+        margin-top: 6rem;
+        margin-right: 2rem;
+    }
+
+    .logo_PPR {
+        height: 13rem;
+    }
+}
