@@ -20,7 +20,7 @@ There are specific constituencies, with different interests and motivations, who
 * to **contact** the campaign
 
 ### What does it do?
-The site's layout and functions were designed to satisfy the expectations of these diverse users.
+The site's layout and functions were designed to satisfy the expectations of these diverse users. **Wireframes** and mockups can be found in the ['wireframes' folder](wireframes) of the directory
 
 The website consists of seven pages, all of which **are directly accessible from the home page** which doubles up as a site navigation (accessible from every page through fixed floating 'Back' and 'Hamburger' icons)
 
