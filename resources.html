@@ -2,271 +2,242 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://use.fontawesome.com/0ac03ef31e.js"></script>
-  <link rel="stylesheet" href="style.css" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <title>Hillview - Resources</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hillview - Resources</title>
+
+    <!--Bootstrap & fontawesome CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <script src="https://use.fontawesome.com/0ac03ef31e.js"></script>
+    
+    <!--Custom CSS folder-->
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <!--JS files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body id="background" class="container-fluid">
 
-  <header>
-    <div class="row">
-      <div class="col-xs-10 heading">
-        <h1>HILLVIEW</h1>
-        <h4 class="sub-title">north belfast</h4>
-      </div>
-      <div class="col-xs-2">
+    <!--Header with page title-->
+    <header>
         <div class="row">
-          <div class="col-xs-12">
-            <span><a href="#" onClick="history.go(-1);return true;"><i class="fa fa-arrow-circle-o-left fa-3x" aria-hidden="true"></i></a></span>
-          </div>
-          <div class="col-xs-12">
-            <span><a href="/index.html"><i class="fa fa-bars fa-3x" aria-hidden="true"></i></a></span>
-          </div>
+            <div class="col-xs-10 heading">
+                <h1>HILLVIEW</h1>
+                <h4 class="sub-title">north belfast</h4>
+            </div>
+            <div class="col-xs-2">
+                <div class="row">
+                    <!--Back page arrow-->
+                    <div class="col-xs-12">
+                        <span><a href="#" onClick="history.go(-1);return true;"><i class="fa fa-arrow-circle-o-left fa-3x" aria-hidden="true"></i></a></span>
+                    </div>
+                    <!--Home button-->
+                    <div class="col-xs-12">
+                        <span><a href="/index.html"><i class="fa fa-bars fa-3x" aria-hidden="true"></i></a></span>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </header>
-
-
-  <main>
-
-    <div class="row facts-nav">
-      <div class="col-xs-12 col-lg-4 header-para header-para-resources">
-        <blockquote>
-          <p style="font-size: 2.2rem"><i class="fa fa-download fa-fw fa-3x" aria-hidden="true"></i>
-            <span style="font-size:5rem"><strong>Resources:</strong></span><br>We have been campaigning for a long time.
-            <br><br>During this time we have collected a lot of information about the extent of inequality, who is most affected and how decisions have been made.<br><br><strong>Find out more...</strong>
-          </p>
-        </blockquote>
-      </div>
-
-
-
-
-      <ul id="nav-facts" class="list-inline facts-row">
-
-        <!--FOI Requests Modal-->
-        <li class="col-xs-6 col-sm-6 col-lg-4 facts-row foi-image page-pads">
-          <h3><strong>Freedom of Information Requests</strong></h3>
-          <!--Trigger Model Button-->
-          <button type="button" class="btn btn-primary entry-modal-button resources-button" data-toggle="modal" data-target="#foiRequests">
-          <i class="fa fa-download fa-fw fa-lg" aria-hidden="true"></i>
-          </button>
-
-          <!--Modal-->
-          <div class="modal fade" id="foiRequests" tabindex="-1" role="dialog" aria-labelledby="foiRequestsTitle" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <p class="modal-title" id="foiRequestsTitle">Freedom of Information Requests</p>
-                  <button type="button" class="close" style="font-size:3rem" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-                </div>
-                <div class="modal-body modal-background">
+    </header>
     
-    
-    
-    
-    
-    
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-success modal-button" data-dismiss="modal">More information</button>
-                </div>
-              </div>
+    <!--Main section - section panels-->
+    <main>
+        <div class="row facts-nav">
+            <div class="col-xs-12 col-lg-4 header-para header-para-resources">
+                <blockquote>
+                    <p style="font-size: 2.2rem"><i class="fa fa-download fa-fw fa-3x" aria-hidden="true"></i>
+                        <span style="font-size:5rem"><strong>Resources:</strong></span><br>We have been campaigning for a long time.
+                        <br><br>During this time we have collected a lot of information about the extent of inequality, who is most affected and how decisions have been made.<br><br><strong>Find out more...</strong>
+                    </p>
+                </blockquote>
             </div>
-          </div>
-        </li>
+            <ul id="nav-facts" class="list-inline facts-row">
 
+                <!--FOI Requests Modal-->
+                <li class="col-xs-6 col-sm-6 col-lg-4 facts-row foi-image page-pads">
+                    <h3><strong>Freedom of Information Requests</strong></h3>
+                    <!--Trigger Model Button-->
+                    <button type="button" class="btn btn-primary entry-modal-button resources-button" data-toggle="modal" data-target="#foiRequests">
+                        <i class="fa fa-download fa-fw fa-lg" aria-hidden="true"></i>
+                    </button>
+                    <!--FOI Request Modal Content-->
+                    <div class="modal fade" id="foiRequests" tabindex="-1" role="dialog" aria-labelledby="foiRequestsTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <p class="modal-title" id="foiRequestsTitle">Freedom of Information Requests</p>
+                                    <button type="button" class="close" style="font-size:3rem" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body modal-background">
+                                <blockquote style="border-left:.5rem solid #000000">
+                                    Responses
+                                </blockquote>
+                                    <a target="_blank" href="/documents/the_facts/nihe/Religious Inequality in numbers 2017.pdf"><strong>Freedom of Information request: Religious Inequality in North Belfast Housing</strong><br>(19.6.17)</a><br><br>
+                                    <a target="_blank" href="/documents/the_facts/nihe/2016-17 Belfast Housing Statistics.xlsx"><strong>Freedom of Information request: 2016/17 Housing Statistics, Belfast</strong><br>(25.5.17)</a><br><br>
+                                    <a target="_blank" href="/documents/the_facts/nihe/North Belfast Housing Applicant - 2017.pdf"><strong>Freedom of Information request: Social Housing Waiting List, North Belfast</strong><br>(25.5.17)</a><br><br>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-success modal-button" data-dismiss="modal">More information</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
 
-        <!--Media Modal-->
-        <li class="col-xs-6 col-sm-6 col-lg-4 facts-row media-image page-pads">
-          <h3>Media</h3>
-          <!--Trigger Model Button-->
-          <button type="button" class="btn btn-primary entry-modal-button resources-button" data-toggle="modal" data-target="#media">
-          <i class="fa fa-download fa-fw fa-lg" aria-hidden="true"></i>
-          </button>
-          <!--Modal-->
-          <div class="modal fade" id="media" tabindex="-1" role="dialog" aria-labelledby="mediaTitle" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <p class="modal-title" id="mediaTitle">Media</p>
-                  <button type="button" class="close" style="font-size:3rem" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body modal-background">
-                  <blockquote style="border-left:.5rem solid #000000">
-                    Articles
-                  </blockquote>
-                  <a target="_blank" href="http://www.irishnews.com/news/2016/02/16/news/dup-meeting-to-discuss-nationalist-homes-held-in-orange-hall-418842/"><strong>'DUP meeting to discuss nationalist homes was held in Belfast orange hall'</strong><br>
-                    Irish News (16.2.16)</a><br>
-                  <a target="_blank" href="https://www.theguardian.com/society/2017/aug/22/people-being-sideland-in-belfasts-housing-crisis"><strong>'People are being sidelined in Belfast’s housing crisis'</strong><br>
-                    The Guardian (22.8.17)</a><br>
-                  <a target="_blank" href="http://belfastmediagroup.com/houses-given-to-tenants-with-zero-points/"><strong>Houses given to tenants with zero points</strong><br>
-                    Belfast Media Group (6.6.14)</a><br>
-                  <a target="_blank" href="https://www.thedetail.tv/articles/documents-reveal-dup-lobbying-over-north-belfast-housing-and-allegations-of-gerrymandering"><strong>Documents reveal DUP lobbying over North Belfast housing and 'allegations of gerrymandering'</strong><br>
-                    The Detail (13.5.14)</a><br>
-                  <a target="_blank" href="http://www.politics.co.uk/comment-analysis/2017/08/16/housing-inequality-returns-to-northern-ireland-as-the-dup-ch"><strong>'Housing inequality returns to Northern Ireland as the DUP chases votes in Protestant areas'</strong><br>
-                    Politics.co.uk (16.8.17)</a><br>
-                  <a target="_blank" href="https://sluggerotoole.com/2016/02/17/dup-campaign-against-homes-for-catholics-in-north-belfast/"><strong>'DUP Campaign Against Homes for Catholics in North Belfast'</strong><br>
-                    Slugger O'Toole (17.2.16)</a><br><br>
-                  <blockquote style="border-left:.5rem solid #000000">
-                    Audio
-                  </blockquote>
-                  <a target="_blank" href="/Audio/Catholic Housing Inequality R Ulster GMU 220813.mp3"><strong>Audio Interview: Launch of Equality Can't Wait Report</strong><br>
-                    BBC Good Morning Ulster (22.8.13)</a><br>
-                  <a target="_blank" href="https://www.youtube.com/watch?v=5UjzuAnVABA"><strong>Former Minister McCausland challenged on housing inequality</strong><br>
-                    BBC Radio Ulster Talkback (22.1.14)</a><br>
-                  <a target="_blank" href="https://www.youtube.com/watch?v=0OOJAcJ7Ibg"><strong>Human impact of housing inequality revealed</strong><br>
-                    Frank Mitchell Show U105 (22.1.14)</a><br><br>
-                  <blockquote style="border-left:.5rem solid #000000">
-                    Video
-                  </blockquote>
-                  <a target="_blank" href="https://www.youtube.com/watch?v=XU9S999u2SE"><strong>Hillview vote in Belfast City Council</strong><br>
-                    BBC (15.8.17)</a>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-success modal-button" data-dismiss="modal">More information</button>
-                </div>
-              </div>
+                <!--Media Modal-->
+                <li class="col-xs-6 col-sm-6 col-lg-4 facts-row media-image page-pads">
+                    <h3>Media</h3>
+                    <!--Trigger Modal Button-->
+                    <button type="button" class="btn btn-primary entry-modal-button resources-button" data-toggle="modal" data-target="#media">
+                        <i class="fa fa-download fa-fw fa-lg" aria-hidden="true"></i>
+                    </button>
+                    
+                    <!--Media Modal Content-->
+                    <div class="modal fade" id="media" tabindex="-1" role="dialog" aria-labelledby="mediaTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <p class="modal-title" id="mediaTitle">Media</p>
+                                    <button type="button" class="close" style="font-size:3rem" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body modal-background">
+                                    <!--Links to print stories-->
+                                    <blockquote style="border-left:.5rem solid #000000">
+                                        Articles
+                                    </blockquote>
+                                    <a target="_blank" href="http://www.irishnews.com/news/2016/02/16/news/dup-meeting-to-discuss-nationalist-homes-held-in-orange-hall-418842/"><strong>'DUP meeting to discuss nationalist homes was held in Belfast orange hall'</strong><br>Irish News (16.2.16)</a><br>
+                                    <a target="_blank" href="https://www.theguardian.com/society/2017/aug/22/people-being-sideland-in-belfasts-housing-crisis"><strong>'People are being sidelined in Belfast’s housing crisis'</strong><br>The Guardian (22.8.17)</a><br>
+                                    <a target="_blank" href="http://belfastmediagroup.com/houses-given-to-tenants-with-zero-points/"><strong>Houses given to tenants with zero points</strong><br>Belfast Media Group (6.6.14)</a><br>
+                                    <a target="_blank" href="https://www.thedetail.tv/articles/documents-reveal-dup-lobbying-over-north-belfast-housing-and-allegations-of-gerrymandering"><strong>Documents reveal DUP lobbying over North Belfast housing and 'allegations of gerrymandering'</strong><br>The Detail (13.5.14)</a><br>
+                                    <a target="_blank" href="http://www.politics.co.uk/comment-analysis/2017/08/16/housing-inequality-returns-to-northern-ireland-as-the-dup-ch"><strong>'Housing inequality returns to Northern Ireland as the DUP chases votes in Protestant areas'</strong><br>Politics.co.uk (16.8.17)</a><br>
+                                    <a target="_blank" href="https://sluggerotoole.com/2016/02/17/dup-campaign-against-homes-for-catholics-in-north-belfast/"><strong>'DUP Campaign Against Homes for Catholics in North Belfast'</strong><br>Slugger O'Toole (17.2.16)</a><br><br>
+                                    <!--Links to audio coverage-->
+                                    <blockquote style="border-left:.5rem solid #000000">
+                                        Audio
+                                    </blockquote>
+                                    <a target="_blank" href="/Audio/Catholic Housing Inequality R Ulster GMU 220813.mp3"><strong>Audio Interview: Launch of Equality Can't Wait Report</strong><br>BBC Good Morning Ulster (22.8.13)</a><br>
+                                    <a target="_blank" href="https://www.youtube.com/watch?v=5UjzuAnVABA"><strong>Former Minister McCausland challenged on housing inequality</strong><br>BBC Radio Ulster Talkback (22.1.14)</a><br>
+                                    <a target="_blank" href="https://www.youtube.com/watch?v=0OOJAcJ7Ibg"><strong>Human impact of housing inequality revealed</strong><br>Frank Mitchell Show U105 (22.1.14)</a><br><br>
+                                    <!--Links to video coverage-->
+                                    <blockquote style="border-left:.5rem solid #000000">
+                                        Video
+                                    </blockquote>
+                                    <a target="_blank" href="https://www.youtube.com/watch?v=XU9S999u2SE"><strong>Hillview vote in Belfast City Council</strong><br>BBC (15.8.17)</a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-success modal-button" data-dismiss="modal">More information</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!--Reports Modal-->
+                <li class="col-xs-6 col-sm-6 col-lg-4 facts-row reports-image page-pads">
+                    <h3>Reports</h3>
+                    <!--Trigger Model Button-->
+                    <button type="button" class="btn btn-primary entry-modal-button resources-button" data-toggle="modal" data-target="#reports">
+                        <i class="fa fa-download fa-fw fa-lg" aria-hidden="true"></i>
+                    </button>
+                    <!--Reports Modal content-->
+                    <div class="modal fade" id="reports" tabindex="-1" role="dialog" aria-labelledby="reportsTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <p class="modal-title" id="reportsTitle">Reports</p>
+                                    <button type="button" class="close" style="font-size:3rem" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body modal-background">
+                                    <!--Links to reports-->
+                                    <blockquote style="border-left:.5rem solid #000000">
+                                        Publications
+                                    </blockquote>
+                                    <a target="_blank" href="https://issuu.com/ppr-org/docs/equality_can_t_wait"><strong>Equality Can't Wait</strong><br>PPR (August 2013)</a><br>
+                                    <a target="_blank" href="https://issuu.com/ppr-org/docs/the_human_impact_2014"><strong>Equality Can't Wait: The Human Impact</strong><br>PPR (January 2014)</a><br>
+                                    <a target="_blank" href="https://issuu.com/ppr-org/docs/surrounded_by_land_final_research"><strong>'Surrounded by Land But No Space for Housing?' Photo-mapping of land available for social housing in Belfast</strong><br>PPR (March 2015)</a><br>
+                                    <a target="_blank" href="https://issuu.com/ppr-org/docs/funding_for_new_social_housing_july"><strong>'Funding for New Social Housing: Research Paper on PublicAuthority Pension Funds as a Source of Finance for New Social Housing'</strong><br>PPR (July 2016)</a><br>
+                                    <a target="_blank" href="https://issuu.com/ppr-org/docs/fn_chasing_homes_not_points"><strong>'Chasing Home Not Points: A Critique of the Fundamental Review of Social Housing Allocations'</strong><br>PPR (November 2017)</a><br>
+                                    
+                                    <!--Links to inforgraphs-->
+                                    <blockquote style="border-left:.5rem solid #000000">
+                                        Inforgraphs
+                                    </blockquote>
+                                    <a target="_blank" href="/images/Inconvenient Truth Infographic Final.jpg"><strong>The Inconvenient Truth... the need for additional social housing in North Belfast</strong><br>(2014)</a><br>
+                                    <a target="_blank" href="/images/Human Rights Bodies back ECW.jpg"><strong>International Human Rights Bodies Back Equality Can't Wait campaign</strong><br>(2015)</a>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success modal-button" data-dismiss="modal">More information</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!--More on Hillview Modal-->
+                <li class="col-xs-6 col-sm-6 col-lg-4 facts-row morehillview-image page-pads">
+                    <h3>More on Hillview</h3>
+                    <!--Trigger Model Button-->
+                    <button type="button" class="btn btn-primary entry-modal-button resources-button" data-toggle="modal" data-target="#more-hillview">
+                        <i class="fa fa-download fa-fw fa-lg" aria-hidden="true"></i>
+                    </button>
+                    <!--More info modal-->
+                    <div class="modal fade" id="more-hillview" tabindex="-1" role="dialog" aria-labelledby="more-hillviewTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <p class="modal-title" id="more-hillviewTitle">More on Hillview</p>
+                                    <button type="button" class="close" style="font-size:3rem" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body modal-background">
+                                    <!--More reports-->
+                                    <blockquote style="border-left:.5rem solid #000000">
+                                        Reports
+                                    </blockquote>
+                                    <a target="_blank" href="https://issuu.com/ppr-org/docs/rev_fn_hillview_independent_inquiry"><strong>Hillview: The Case for an Independent Inquiry</strong><br>November 2017</a><br>
+                                    <a target="_blank" href="https://issuu.com/ppr-org/docs/build_homes_now_2016"><strong>Build Homes Now! A sustainable solution for Dunnes/Hillview, North Belfast</strong><br>September 2016</a><br>
+
+                                    <!--More audio/video-->
+                                    <blockquote style="border-left:.5rem solid #000000">
+                                        Audio & Video
+                                    </blockquote>
+                                    <a target="_blank" href="https://www.youtube.com/watch?v=XU9S999u2SE"><strong>Hillview vote in Belfast City Council</strong><br>BBC (15.8.17)</a><br>
+                                    <a target="_blank" href="https://www.youtube.com/watch?v=6p4mwaDJDS0"><strong>Equality Can't Wait deliver their message to decision makers</strong><br>September 2016</a><br>
+                                    <a target="_blank" href="https://www.youtube.com/watch?v=68FPdM6tOWQ"><strong>Crisis? What Crisis? A short film by homeless families in Belfast</strong><br>March 2016</a><br>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-success modal-button" data-dismiss="modal">More information</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <hr>
+    
+    <!--Footer with social media & contact options-->
+    <footer>
+        <div class="row">
+            <a target="_blank" href="https://www.pprproject.org/" class="fade-logos">
+                <div class="col-xs-4 col-sm-4 logo"></div>
+            </a>
+            <div class="col-xs-8 col-sm-4">
+                <p class="footer-text">Since 2012, families have campaigned through Equality Can't Wait to end homelessness & religious inequality in housing provision and progress housing rights for all.</p>
             </div>
-          </div>
-        </li>
-
-
-        <!--Reports Modal-->
-        <li class="col-xs-6 col-sm-6 col-lg-4 facts-row reports-image page-pads">
-          <h3>Reports</h3>
-          <!--Trigger Model Button-->
-          <button type="button" class="btn btn-primary entry-modal-button resources-button" data-toggle="modal" data-target="#reports">
-          <i class="fa fa-download fa-fw fa-lg" aria-hidden="true"></i>
-          </button>
-          <!--Modal-->
-          <div class="modal fade" id="reports" tabindex="-1" role="dialog" aria-labelledby="reportsTitle" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <p class="modal-title" id="reportsTitle">Reports</p>
-                  <button type="button" class="close" style="font-size:3rem" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body modal-background">
-
-                  <blockquote style="border-left:.5rem solid #000000">
-                    Reports
-                  </blockquote>
-                  <a target="_blank" href="https://issuu.com/ppr-org/docs/equality_can_t_wait"><strong>Equality Can't Wait</strong><br>
-                    PPR (August 2013)</a><br>
-                  <a target="_blank" href="https://issuu.com/ppr-org/docs/the_human_impact_2014"><strong>Equality Can't Wait: The Human Impact</strong><br>
-                    PPR (January 2014)</a><br>
-                  <a target="_blank" href="https://issuu.com/ppr-org/docs/surrounded_by_land_final_research"><strong>'Surrounded by Land But No Space for Housing?' Photo-mapping of land available for social housing in Belfast</strong><br>
-                    PPR (March 2015)</a><br>
-                  <a target="_blank" href="https://issuu.com/ppr-org/docs/funding_for_new_social_housing_july"><strong>'Funding for New Social Housing: Research Paper on Public
-                    Authority Pension Funds as a Source of Finance for New Social Housing'</strong><br>
-                    PPR (July 2016)</a><br>
-                  <a target="_blank" href="https://issuu.com/ppr-org/docs/fn_chasing_homes_not_points"><strong>'Chasing Home Not Points: A Critique
-                    of the Fundamental Review of Social Housing Allocations'</strong><br>
-                    PPR (November 2017)</a><br>
-
-                  <blockquote style="border-left:.5rem solid #000000">
-                    Inforgraphs
-                  </blockquote>
-                  <a target="_blank" href="/images/Inconvenient Truth Infographic Final.jpg"><strong>The Inconvenient Truth... the need for additional
-                  social housing in North Belfast</strong><br>
-                  (2014)</a><br>
-                  <a target="_blank" href="/images/Human Rights Bodies back ECW.jpg"><strong>International Human Rights Bodies Back Equality Can't Wait campaign</strong><br>
-                  (2015)</a>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-success modal-button" data-dismiss="modal">More information</button>
-                  </div>
-                </div>
-              </div>
+            <div class="col-xs-12 col-sm-4">
+                <h5>STAY INFORMED</h5>
+                <ul id="social-media-logos" class="list-inline social-links">
+                    <li><a target="_blank" href="https://www.facebook.com/pprproject" class="fade-logos"><i class="fa fa-facebook"></i></a></li>
+                    <li><a target="_blank" href="https://twitter.com/PPR_Org" class="fade-logos"><i class="fa fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="http://www.youtube.com/user/PPRProject?sub_confirmation=1" class="fade-logos"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+                <h5><a href="/contactus.html" class="contact-footer">CONTACT US</a></h5>
             </div>
-        </li>
-
-        <!--More on Hillview Modal-->
-        <li class="col-xs-6 col-sm-6 col-lg-4 facts-row morehillview-image page-pads">
-          <h3>More on Hillview</h3>
-          <!--Trigger Model Button-->
-          <button type="button" class="btn btn-primary entry-modal-button resources-button" data-toggle="modal" data-target="#more-hillview">
-          <i class="fa fa-download fa-fw fa-lg" aria-hidden="true"></i>
-          </button>
-          <!--Modal-->
-          <div class="modal fade" id="more-hillview" tabindex="-1" role="dialog" aria-labelledby="more-hillviewTitle" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <p class="modal-title" id="more-hillviewTitle">More on Hillview</p>
-                  <button type="button" class="close" style="font-size:3rem" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-                </div>
-                <div class="modal-body modal-background">
-                  <blockquote style="border-left:.5rem solid #000000">
-                    Reports
-                  </blockquote>
-                  <a target="_blank" href="https://issuu.com/ppr-org/docs/rev_fn_hillview_independent_inquiry"><strong>Hillview: The Case for an Independent Inquiry</strong><br>
-                    November 2017</a><br>
-                  <a target="_blank" href="https://issuu.com/ppr-org/docs/build_homes_now_2016"><strong>Build Homes Now! A sustainable solution for Dunnes/Hillview, North Belfast</strong><br>
-                    September 2016</a><br>
-
-
-                  <blockquote style="border-left:.5rem solid #000000">
-                    Audio & Video
-                  </blockquote>
-                  <a target="_blank" href="https://www.youtube.com/watch?v=XU9S999u2SE"><strong>Hillview vote in Belfast City Council</strong><br>
-                    BBC (15.8.17)</a><br>
-                  <a target="_blank" href="https://www.youtube.com/watch?v=6p4mwaDJDS0"><strong>Equality Can't Wait deliver their message to decision makers</strong><br>
-                    September 2016</a><br>
-                  <a target="_blank" href="https://www.youtube.com/watch?v=68FPdM6tOWQ"><strong>Crisis? What Crisis? A short film by homeless families in Belfast</strong><br>
-                    March 2016</a><br>
-
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-success modal-button" data-dismiss="modal">More information</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-
-
-      </ul>
-      </div>
-  </main>
-
-  <hr>
-
-  <footer>
-    <div class="row">
-      <a target="_blank" href="https://www.pprproject.org/" class="fade-logos">
-        <div class="col-xs-4 col-sm-4 logo"></div>
-      </a>
-      <div class="col-xs-8 col-sm-4">
-        <p class="footer-text">Since 2012, families have campaigned through Equality Can't Wait to end homelessness & religious inequality in housing provision and progress housing rights for all.</p>
-      </div>
-      <div class="col-xs-12 col-sm-4">
-        <h5>STAY INFORMED</h5>
-        <ul id="social-media-logos" class="list-inline social-links">
-          <li><a target="_blank" href="https://www.facebook.com/pprproject" class="fade-logos"><i class="fa fa-facebook"></i></a></li>
-          <li><a target="_blank" href="https://twitter.com/PPR_Org" class="fade-logos"><i class="fa fa-twitter"></i></a></li>
-          <li><a target="_blank" href="http://www.youtube.com/user/PPRProject?sub_confirmation=1" class="fade-logos"><i class="fa fa-youtube"></i></a></li>
-        </ul>
-        <h5><a href="/contactus.html" class="contact-footer">CONTACT US</a></h5>
-      </div>
-    </div>
-  </footer>
-
+        </div>
+    </footer>
 </body>
-
 </html>

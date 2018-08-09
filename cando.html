@@ -2,123 +2,126 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://use.fontawesome.com/0ac03ef31e.js"></script>
-  <link rel="stylesheet" href="style.css" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <title>Hillview - What You Can Do</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hillview - What You Can Do</title>
+
+    <!--Bootstrap & fontawesome CSS, JS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <script src="https://use.fontawesome.com/0ac03ef31e.js"></script>
+    
+    <!--Custom CSS folder-->
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <!--JS files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body id="background" class="container-fluid">
-
-
-
-
-  <header>
-    <div class="row">
-      <div class="col-xs-10 heading">
-        <h1>HILLVIEW</h1>
-        <h4 class="sub-title">north belfast</h4>
-      </div>
-      <div class="col-xs-2">
+    
+    <!--Header with page title-->
+    <header>
         <div class="row">
-          <div class="col-xs-12">
-            <span><a href="#" onClick="history.go(-1);return true;"><i class="fa fa-arrow-circle-o-left fa-3x" aria-hidden="true"></i></a></span>
-          </div>
-          <div class="col-xs-12">
-            <span><a href="/index.html"><i class="fa fa-bars fa-3x" aria-hidden="true"></i></a></span> </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-
-  <main>
-
-    <div class="row facts-nav">
-      <div class="col-xs-12 col-lg-4 header-para header-para-cando">
-        <blockquote>
-          <p style="font-size: 2.2rem"><strong><i class="fa fa-cogs fa-3x fa-fw" aria-hidden="true"></i><span style="font-size:5rem">What You Can Do</span></strong><br>Are you homeless? A politician? A journalist? A civil servant? Or a concerned member of the public?<br><br>
-            <strong>This can end if we ACT TODAY!</strong></p>
-        </blockquote>
-      </div>
-
-      <div class="panel-group" id="accordion">
-        <div class="col-xs-12 col-sm-12 col-lg-6">
-          <p id="action-intro">BBC's Spotlight revealed what we've known for a long time - the system is broken. It is failing those most in need and benefitting those who are well-off.<br><br> There are many things that you could do.<br><br> But we ask you to only do a couple
-            of simple things right now:<br><br></p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-lg-3 act-now">
-          <div class="panel panel-default fade-logos">
-            <div class="panel-heading" style="background-color:#009688; height:10vh; border-size:0">
-              <p class="panel-title" style="font-weight:500; font-size:2.5rem; text-align:center; underline:none">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" style="color:white">
-                  SHARE INFO<br><i class="fa fa-arrow-circle-o-down fa-lg fa-fw" aria-hidden="true"></i></a>
-              </p>
+            <div class="col-xs-10 heading">
+                <h1>HILLVIEW</h1>
+                <h4 class="sub-title">north belfast</h4>
             </div>
-            <div id="collapse1" class="panel-collapse collapse">
-              <div class="panel-body">The Equality Can't Wait campaign is based on solid evidence.<br><br> We get this information from a range of sources: people, organisations, civil servants, businesses, journalists and politicians<br><br>
-                <strong>You know stuff. We know stuff.<br><br>
-              <a href="/contactus.html">Let's Talk.</a></strong></div>
+            <div class="col-xs-2">
+                <div class="row">
+                    <!--Back page arrow-->
+                    <div class="col-xs-12">
+                        <span><a href="#" onClick="history.go(-1);return true;"><i class="fa fa-arrow-circle-o-left fa-3x" aria-hidden="true"></i></a></span>
+                    </div>
+                    <!--Home button-->
+                    <div class="col-xs-12">
+                        <span><a href="/index.html"><i class="fa fa-bars fa-3x" aria-hidden="true"></i></a></span> 
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="col-xs-12 col-sm-6 col-lg-3 act-now">
-          <div class="panel panel-default fade-logos">
-            <div class="panel-heading" style="background-color:#009688; height:10vh; border-color:transparent">
-              <p class="panel-title" style="font-weight:500; font-size:2.5rem; text-align:center">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" style="color:white">
-                  TAKE ACTION<br><i class="fa fa-arrow-circle-o-down fa-lg fa-fw" aria-hidden="true"></i></a>
-              </p>
+    </header>
+    
+    <!--Main section - dropdown panels-->
+    <main>
+        <div class="row facts-nav">
+            <div class="col-xs-12 col-lg-4 header-para header-para-cando">
+                <blockquote>
+                    <p style="font-size: 2.2rem"><strong><i class="fa fa-cogs fa-3x fa-fw" aria-hidden="true"></i><span style="font-size:5rem">What You Can Do</span></strong><br>Are you homeless? A politician? A journalist? A civil servant? Or a concerned member of the public?<br><br>
+                    <strong>This can end if we ACT TODAY!</strong></p>
+                </blockquote>
             </div>
-            <div id="collapse2" class="panel-collapse collapse">
-              <div class="panel-body">
-                <strong>Follow us on social media</strong><br><br>
-                <a target="_blank" href="https://www.facebook.com/pprproject" class="action-logos">
-                <i class="fa fa-facebook fa-lg fa-fw"></i>
-              </a>
-                <a target="_blank" href="https://twitter.com/PPR_Org">
-                <i class="fa fa-twitter fa-lg fa-fw"></i>
-              </a>
-                <a target="_blank" href="http://www.youtube.com/user/PPRProject?sub_confirmation=1">
-                <i class="fa fa-youtube fa-lg fa-fw"></i><br><br>
-              </a>
-                <strong>Change your twitter profile picture image to match our logo</strong><br><br>
-                <a href="/images/logo.png"><img src="/images/logo.png" alt="Equality Can't Wait logo" class="action-logos"></a>
-              </div>
+            <div class="panel-group" id="accordion">
+                <div class="col-xs-12 col-sm-12 col-lg-6">
+                    <p id="action-intro">BBC's Spotlight revealed what we've known for a long time - the system is broken. It is failing those most in need and benefitting those who are well-off.<br><br> There are many things that you could do.<br><br> But we ask you to only
+                        do a couple of simple things right now:<br><br></p>
+                </div>
+                
+                <!--Share Info panel-->
+                <div class="col-xs-12 col-sm-6 col-lg-3 act-now">
+                    <div class="panel panel-default fade-logos">
+                        <div class="panel-heading" style="background-color:#009688; height:10vh; border-size:0">
+                            <p class="panel-title" style="font-weight:500; font-size:2.5rem; text-align:center; underline:none">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" style="color:white">SHARE INFO<br>
+                                    <i class="fa fa-arrow-circle-o-down fa-lg fa-fw" aria-hidden="true"></i>
+                                </a>
+                            </p>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse">
+                            <div class="panel-body">The Equality Can't Wait campaign is based on solid evidence.<br><br> We get this information from a range of sources: people, organisations, civil servants, businesses, journalists and politicians<br><br>
+                                <strong>You know stuff. We know stuff.<br><br>
+                                <a href="/contactus.html">Let's Talk.</a></strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--Take action panel-->
+                <div class="col-xs-12 col-sm-6 col-lg-3 act-now">
+                    <div class="panel panel-default fade-logos">
+                        <div class="panel-heading" style="background-color:#009688; height:10vh; border-color:transparent">
+                            <p class="panel-title" style="font-weight:500; font-size:2.5rem; text-align:center">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" style="color:white">
+                                TAKE ACTION<br><i class="fa fa-arrow-circle-o-down fa-lg fa-fw" aria-hidden="true"></i></a>
+                            </p>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <strong>Follow us on social media</strong><br><br>
+                                <a target="_blank" href="https://www.facebook.com/pprproject" class="action-logos"><i class="fa fa-facebook fa-lg fa-fw"></i></a>
+                                <a target="_blank" href="https://twitter.com/PPR_Org"><i class="fa fa-twitter fa-lg fa-fw"></i></a>
+                                <a target="_blank" href="http://www.youtube.com/user/PPRProject?sub_confirmation=1"><i class="fa fa-youtube fa-lg fa-fw"></i><br><br></a>
+                                <strong>Change your twitter profile picture image to match our logo</strong><br><br>
+                                <a href="/images/logo.png"><img src="/images/logo.png" alt="Equality Can't Wait logo" class="action-logos"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-
-  </main>
-
-  <hr>
-
-  <footer>
-    <div class="row">
-      <a target="_blank" href="https://www.pprproject.org/" class="fade-logos">
-        <div class="col-xs-4 col-sm-4 logo"></div>
-      </a>
-      <div class="col-xs-8 col-sm-4">
-        <p class="footer-text">Since 2012, families have campaigned through Equality Can't Wait to end homelessness & religious inequality in housing provision and progress housing rights for all.</p>
-      </div>
-      <div class="col-xs-12 col-sm-4">
-        <h5>STAY INFORMED</h5>
-        <ul id="social-media-logos" class="list-inline social-links">
-          <li><a target="_blank" href="https://www.facebook.com/pprproject" class="fade-logos"><i class="fa fa-facebook fa-lg fa-fw"></i></a></li>
-          <li><a target="_blank" href="https://twitter.com/PPR_Org" class="fade-logos"><i class="fa fa-twitter"></i></a></li>
-          <li><a target="_blank" href="http://www.youtube.com/user/PPRProject?sub_confirmation=1" class="fade-logos"><i class="fa fa-youtube"></i></a></li>
-        </ul>
-        <h5><a href="/contactus.html" class="contact-footer">CONTACT US</a></h5>
-      </div>
-    </div>
-  </footer>
-
+    </main>
+    <hr>
+    
+    <!--Footer with social media & contact options-->
+    <footer>
+        <div class="row">
+            <a target="_blank" href="https://www.pprproject.org/" class="fade-logos">
+                <div class="col-xs-4 col-sm-4 logo"></div>
+            </a>
+            <div class="col-xs-8 col-sm-4">
+                <p class="footer-text">Since 2012, families have campaigned through Equality Can't Wait to end homelessness & religious inequality in housing provision and progress housing rights for all.</p>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <h5>STAY INFORMED</h5>
+                <ul id="social-media-logos" class="list-inline social-links">
+                    <li><a target="_blank" href="https://www.facebook.com/pprproject" class="fade-logos"><i class="fa fa-facebook fa-lg fa-fw"></i></a></li>
+                    <li><a target="_blank" href="https://twitter.com/PPR_Org" class="fade-logos"><i class="fa fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="http://www.youtube.com/user/PPRProject?sub_confirmation=1" class="fade-logos"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+                <h5><a href="/contactus.html" class="contact-footer">CONTACT US</a></h5>
+            </div>
+        </div>
+    </footer>
 </body>
-
 </html>
