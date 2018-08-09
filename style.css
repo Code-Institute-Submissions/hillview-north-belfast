@@ -446,7 +446,7 @@ a:hover {
 /*<main> - HOME*/
 
 .menu-item {
-    height: 13vh;
+    height: 15vh;
     padding: 0;
     line-height: 1;
 }
@@ -677,7 +677,7 @@ hr {
 
     /*min-width: 768px - <main> - HOME*/
     #nav li {
-        height: 20vh;
+        height: 25vh;
     }
 
     .menu-item a i {
@@ -804,7 +804,7 @@ hr {
     }
 
     #nav li {
-        height: 25vh;
+        height: 26vh;
     }
 
     .menu-item a i {
