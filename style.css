@@ -1,26 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Roboto+Condensed:100,200,300,400,500,600,700|Barlow+Semi+Condensed:100,200,300,400,500,600,700|News+Cycle:100,300,400|Bangers');
 
-/*Landing Alert*/
-
-#landing-alert {
-    background-color: #000;
-    -webkit-box-shadow: 12px 10px 9px #525050;
-    -moz-box-shadow: 12px 10px 9px #525050;
-    box-shadow: 12px 10px 9px #525050;
-    width: 80%;
-    position: fixed;
-    height: 50%;
-    top: 25%;
-    left: 10%;
-    z-index: 10;
-    border-radius: 25px;
-    border-color: #000;
-    line-height: 1;
-    background-image: url("images/logo2.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: 50% 90%;
-}
 
 /*Margins and Padding*/
 
@@ -223,7 +202,7 @@ a:hover {
 /*Images & Logos*/
 
 #background {
-    background-image: url(../images/ecwscale.jpg);
+    background-image: url("images/ecwscale.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
