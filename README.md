@@ -1,58 +1,121 @@
 # Hillview: North Belfast
+A website providing extensive information relating to a #BuildHomesNow campaign to secure social housing on a currently vacant and unused development site in north Belfast. 
+
+## Overview
+'Hillview: North Belfast' aims to capitalise on recent media exposure (March 2018) to the campaign and provide further information which was not covered in the BBC Spotlight 30 minute documentary. The site is designed with the intention of recruiting supporters and establishing new sources of information relevant to the campaign.
+
+### What is this application for?
+There are specific constituencies, with different interests and motivations, who are most likely to visit the site:
+* members of the public
+* journalists
+* policy and research teams
+* civil servants
+* politicians
+
+'Hillview: North Belfast' anticipates that the above groups will access the site for three specific reasons:
+* to access information (to varying degrees)
+* to take supportive action
+* to contact the campaign
+
+### What does it do?
+The site's layout and functions were designed to satisfy the expectations of these diverse users:
+
+The website consists of seven pages, all of which are directly accessible from the home page which
+doubles up as a site navigation (accessible from every page through fixed floating 'Back' and 'Hamburger' icons)
+
+All information is accessible within three user clicks
+
+Information is presented in progressively larger amounts, accessible at the searcher's discretion (reachable through a) modals, b) links, c) Resources page)
+
+Information is provided through a wide range of forms (introductory synopsis, links to articles in external publications, embedded youtube videos, audio downloads of relevant media interviews and downloadable freedom of information documents and campaign materials, reports and infographs)
+
+Users are encouraged to take action through a number of small but useful avenues: 
+* following the campaign's social meda outlets support
+* adopting the campaign logo as user's temporary twitter profile image, and getting in touch with campaign organisers to provide or 
+* access information related to housing inequality
+
+A 'Contact Us' page provides direct email service to reach campaign organisers
+
+Large fonts & imagery are used to convey the campaign message with simplicity and clarity while a quality UX.
+
+### How does it work
+The website is written in **HTML** and styled with **CSS** and **Bootstrap**. The Bootstrap grid layout is used to make the application responsive across mobile, tablet and desktop devices. The site is designed using **mobile-first** design principles.
+
+Users can contact the Equality Can't Wait campaign by sending an email directly from the site using **EmailJS** service.
+
+**AWS Cloud9** has been used as the IDE for deployment of site on github pages. 
+
+## Technology Used
+
+### Code
+- **HTML**, **CSS**
+    - Base languages used to create website
+- [EmailJS](http://www.emailjs.com/)
+    - Allows users to send emails to the Equality Can't Wait email using client side technologies and EmailJS's Javascript library
+- [Bootstrap](http://getbootstrap.com/)
+    - **Bootstrap 3.3.7** is used to render a responsive layout
+
+## Testing 
+The [WC3 Validator Service](https://validator.w3.org/) was used to test HTML and CSS language. An error regarding the nesting of ``<li>`` elements with ``<a>`` elements was ignored to be able to create hover affects across the entire panels on the Home, Fatcs, Impact and Resources pages.
+
+The site was tested manually by going through each page and checking that the following were working:
+* the bootstrap effects (e.g. fade in & out, open and scroll modals, dropdown panel)
+* internal links to navigate tge site correctly
+* links to external sites (including **twitter**, **facebook** and **youtube**)
+* embedded youtube videos
+
+"Hillview: North Belfast" was tested in the following browsers:
+* Chrome
+* Firefox
+* Microsoft Edge
+* Opera
+
+## Getting the code up and running
+1. Clone this repository by opening your Terminal, change the current working directory to the location where you want the cloned directory to be made.  
+2. Type `$git clone https://github.com/Deasun/equality-cant-wait.git`  and hit Enter. Your repository will be ready.
+3. Run the index.html, open in a broswer and the page will display
+4. We welcome all contributions to improving our code, so make changes you think are needed/desired and submit a pull request
+
+## Credits
+
+### Media and Reports
+The sources for all the media and reports, either provided as a link to an external site or saved in the directory and available for download, are referenced. 
+
+### Developer
+Dessie Donnelly (email: des_donn@mailbox.org)
+
+### Partners
+Equality Can't Wait & #BuildHomesNow campaign C/O PPR, Ground Floor, Community House, Citylink Business Park
+6A Albert Street, Belfast, BT12 4HQ (tel: 028 90313315)
+Contact: Elfie Seymour (email: elfie@pprproject.org)
+
+
+
+
+
+
+
+
+
+
+
+
+# Hillview: North Belfast
 
 
 ## Overview
-This project was produced in conjunction with the human rights organisation
-Participation and the Practice of Rights (PPR). The website aims to capitalise
-on recent media exposure (March 2018) to one of their housing campaigns
-by providing further information which was not covered in a BBC Spotlight
-30 minute documentary, recruiting supporters and establishing new information sources.
+
 
 <hr>
 
 ### Project Objectives
-To provide: 
-<ol>
-    <li>accessible information for the casual (e.g. members of the public) 
-    searcher (e.g. journalist)</li>
-    <li>accessible information for the detailed searcher (e.g policy & research 
-    officers)</li>
-    <li>a 'go to' source for people seeking to work collaboratively 
-    (e.g. journalists</li>
-    <li>a straightforward way for people to take action</li>
-    <li>a means to generate new contacts</li>
-    
-</ol>
+
 
 
 ### Design Approach and Functionality
 <ul>
-<li>The website consists of seven pages, all of which are directly accessible from the home page which
-doubles up as a site navigation (reachable on every page  through fixed floating 'Back' and 'Home' icons)</li>
 
-<li>All information is accessible within three user clicks</li>
 
-<li>Information is presented in progressively larger amounts, accessible at the 
-searcher's discretion (reachable through a) modals, b) links, c) Resources page)</li>
-
-<li>Information is provided through a wide range of forms (introductory synopsis, links to articles
-in external publications, embedded youtube videos, audio downloads of relevant media
-interviews and downloadable freedom of information documents and campaign materials, reports
-and infographs</li>
-
-<li>Users are encouraged to take action through a number of small but useful avenues: 
-following the campaign's social meda outlets support, adopting the campaign logo as
-user's temporary twitter profile image, and getting in touch with campaign organisers to provide or 
-access information related to housing inequality</li>
-
-<li>A 'Contact Us' page provides direct email service to reach campaign organisers</li>
-
-<li>Large fonts & imagery are used to convey the campaign message with simplicity and clarity
-while a quality UX</li>
-
-<li>The website is to function as a temporary landing page for the <a href='https://www.pprproject.org'>
-PPR organisation</a> and a 'pop-up' landing alert is used on the Home Page to enable 
-users to proceed directly to PPR's home site.</li>
 
 </ul>
 
