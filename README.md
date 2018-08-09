@@ -1,7 +1,7 @@
 # Hillview: North Belfast
 A website providing extensive information relating to a #BuildHomesNow campaign to secure social housing on a currently vacant and unused development site in north Belfast. 
 
-Click here to visit the site.
+Click [here](https://deasun.github.io/equality-cant-wait/.) to visit the site.
 
 ## Overview
 **'Hillview: North Belfast'** aims to capitalise on recent media exposure (March 2018) of the campaign and provide further information which was not covered in the **BBC Spotlight documentary**. The site is designed with the intention of recruiting supporters and establishing new sources of information relevant to the campaign.
