@@ -1,7 +1,7 @@
 # Hillview: North Belfast
 A website providing extensive information relating to a #BuildHomesNow campaign to secure social housing on a currently vacant and unused development site in north Belfast. 
 
-Click [here](https://deasun.github.io/equality-cant-wait/.) to visit the site.
+Click [here](https://hillview-north-belfast.herokuapp.com/) to visit the site.
 
 ## Overview
 **'Hillview: North Belfast'** aims to capitalise on recent media exposure (March 2018) of the campaign and provide further information which was not covered in the **BBC Spotlight documentary**. The site is designed with the intention of recruiting supporters and establishing new sources of information relevant to the campaign.
@@ -26,13 +26,13 @@ The website consists of seven pages, all of which **are directly accessible from
 
 All information is accessible within **three clicks**
 
-**Information is presented in progressively larger amounts**, accessible at the searcher's discretion (reachable through a) modals, b) links, c) Resources page)
+**Information is presented in progressively larger amounts**, accessible at the user's discretion (reachable through a) modals, b) links, c) Resources page)
 
 **Information is provided through a wide range of formats** (introductory synopsis, links to articles in external publications, embedded youtube videos, audio downloads of relevant media interviews and downloadable freedom of information documents and campaign materials, reports and infographs)
 
 Users are encouraged to **take action** through a number of small but useful avenues: 
 * **following** the campaign's social media profiles
-* adopting the campaign logo as user's **temporary twitter profile image**, and getting in touch with campaign organisers to provide or **access information** related to housing inequality
+* adopting the campaign logo as user's **temporary twitter profile image**, and getting in touch with campaign organisers to **provide or access information** related to housing inequality
 
 A 'Contact Us' page provides **direct email service** to contact campaign organisers
 
@@ -41,9 +41,11 @@ A 'Contact Us' page provides **direct email service** to contact campaign organi
 ### How does it work
 The website is written in **HTML** and styled with **CSS** and **Bootstrap**. The Bootstrap grid layout is used to make the application responsive across mobile, tablet and desktop devices. The site is designed using **mobile-first** design principles.
 
+Information is available on the site through **embedded Youtube videos**, **pdf**, **png** and **mp3** downloads and **links** to external articles.
+
 Users can contact the Equality Can't Wait campaign by sending an email directly from the site using **EmailJS** service.
 
-**AWS Cloud9** has been used as the IDE for deployment of site on github pages. 
+**AWS Cloud9** was used as the IDE. The files [index.php](index.php) and [composer.json](composer.json) were included in the directory to enable deployment on the cloud application platform **Heroku**.  
 
 ## Technology Used
 
@@ -54,6 +56,10 @@ Users can contact the Equality Can't Wait campaign by sending an email directly 
     - Allows users to send emails to the Equality Can't Wait email using client side technologies and EmailJS's Javascript library
 - [Bootstrap](http://getbootstrap.com/)
     - **Bootstrap 3.3.7** is used to render a responsive layout
+
+### Hosting
+- [Heroku](https://www.heroku.com/)
+    - The Cloud Application Platform **Heroku** hosts the Hillview: North Belfast.
 
 ## Testing 
 The [WC3 Validator Service](https://validator.w3.org/) was used to test HTML and CSS language. An error regarding the nesting of ``<li>`` elements with ``<a>`` elements was ignored to be able to create hover affects across the entire panels on the Home, Fatcs, Impact and Resources pages.
@@ -72,9 +78,12 @@ The site was tested manually by going through each page and checking that the fo
 
 ## Getting the code up and running
 1. Clone this repository by opening your Terminal, change the current working directory to the location where you want the cloned directory to be made.  
-2. Type `$git clone https://github.com/Deasun/equality-cant-wait.git`  and hit Enter. Your repository will be ready.
-3. Run the index.html, open in a broswer and the page will display
-4. We welcome all contributions to improving our code, so make changes you think are needed/desired and submit a pull request
+2. Type `$ git clone https://github.com/Deasun/equality-cant-wait.git`  and hit Enter. Your repository will be ready.
+3. Run the ```index.html```, open in a broswer and the page will display
+
+## Contributing
+* We welcome all contributions to improving our code and accept pull requests. 
+* There is an outstanding bug in the code. The centre panels jump slightly when the modals are opened. 'overflow-y' and 'padding' styles are applied to ```.modal-open``` and ```html``` to minimise disruption. 
 
 ## Credits
 
