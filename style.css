@@ -89,6 +89,10 @@ p {
     line-height: 1.1;
 }
 
+blockquote p a {
+    color: #ffffff;
+}
+
 .contact-form {
     font-family: "Roboto Condensed";
     font-weight: 500;
