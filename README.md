@@ -1,5 +1,5 @@
 # Hillview: North Belfast
-A website providing extensive information relating to a #BuildHomesNow campaign to secure social housing on a currently vacant and unused development site in north Belfast. 
+A website providing extensive information relating to a #BuildHomesNow/Equality Can't Wait campaign to secure social housing on a currently vacant and unused development site in north Belfast. 
 
 Click [here](https://hillview-north-belfast.herokuapp.com/) to visit the site.
 
@@ -20,23 +20,23 @@ There are specific constituencies, with different interests and motivations, who
 * to **contact** the campaign
 
 ### What does it do?
-The site's layout and functions were designed to satisfy the expectations of these diverse users. **Wireframes** and mockups can be found in the ['wireframes' folder](wireframes) of the directory
+The site's layout and functions were designed to satisfy the expectations of these diverse users. **Wireframes** and mockups can be found in the ['wireframes' folder](wireframes) of the directory.
 
-The website consists of seven pages, all of which **are directly accessible from the home page** which doubles up as a site navigation (accessible from every page through fixed floating 'Back' and 'Hamburger' icons)
+The website consists of six pages, all of which **are directly accessible from the home page** which doubles up as a site navigation (accessible from every page through fixed floating 'Back' and 'Hamburger' icons).
 
-All information is accessible within **three clicks**
+All information is accessible within **three clicks**.
 
-**Information is presented in progressively larger amounts**, accessible at the user's discretion (reachable through a) modals, b) links, c) Resources page)
+**Information is presented in progressively larger amounts**, accessible at the user's discretion (reachable through a) modals, b) links, c) Resources page).
 
-**Information is provided through a wide range of formats** (introductory synopsis, links to articles in external publications, embedded youtube videos, audio downloads of relevant media interviews and downloadable freedom of information documents and campaign materials, reports and infographs)
+**Information is provided through a wide range of formats** (introductory synopsis by page, links to articles in external publications, embedded youtube videos, audio downloads of relevant media interviews and downloadable freedom of information documents and campaign materials, reports and infographs).
 
 Users are encouraged to **take action** through a number of small but useful avenues: 
 * **following** the campaign's social media profiles
 * adopting the campaign logo as user's **temporary twitter profile image**, and getting in touch with campaign organisers to **provide or access information** related to housing inequality
 
-A 'Contact Us' page provides **direct email service** to contact campaign organisers
+A 'Contact Us' page provides **direct email service** to contact campaign organisers.
 
-**Large fonts & imagery** are used to convey the campaign message with simplicity and clarity while a quality UX.
+**Large fonts & imagery** are used to convey the campaign message with simplicity and clarity.
 
 ### How does it work
 The website is written in **HTML** and styled with **CSS** and **Bootstrap**. The Bootstrap grid layout is used to make the application responsive across mobile, tablet and desktop devices. The site is designed using **mobile-first** design principles.
@@ -59,7 +59,7 @@ Users can contact the Equality Can't Wait campaign by sending an email directly 
 
 ### Hosting
 - [Heroku](https://www.heroku.com/)
-    - The Cloud Application Platform **Heroku** hosts the Hillview: North Belfast.
+    - The Cloud Application Platform **Heroku** hosts the **Hillview: North Belfast** site.
 
 ## Testing 
 The [WC3 Validator Service](https://validator.w3.org/) was used to test HTML and CSS language. An error regarding the nesting of ``<li>`` elements with ``<a>`` elements was ignored to be able to create hover affects across the entire panels on the Home, Fatcs, Impact and Resources pages.
@@ -67,7 +67,8 @@ The [WC3 Validator Service](https://validator.w3.org/) was used to test HTML and
 The site was tested manually by going through each page and checking that the following were working:
 * the **bootstrap effects** (e.g. fade in & out, open and scroll modals, dropdown panel)
 * **internal links** to navigate the site correctly
-* **links to external sites** (including **twitter**, **facebook** and **youtube**)
+* **downloadable** pdf, jpg and mp3 files
+* **links to external sites** (including the campaign's **twitter**, **facebook** and **youtube**)
 * embedded youtube **videos**
 
 **"Hillview: North Belfast"** was tested in the following browsers:
@@ -83,7 +84,7 @@ The site was tested manually by going through each page and checking that the fo
 
 ## Contributing
 * We welcome all contributions to improving our code and accept pull requests. 
-* There is an outstanding bug in the code. The centre panels jump slightly when the modals are opened. 'overflow-y' and 'padding' styles are applied to ```.modal-open``` and ```html``` to minimise disruption. 
+* There is an outstanding bug in the code. The centre panels jump slightly when the modals are opened. ``overflow-y`` and ``padding`` styles are applied to ```.modal-open``` and ```html``` to minimise disruption. 
 
 ## Credits
 
