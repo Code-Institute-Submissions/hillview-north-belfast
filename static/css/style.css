@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Roboto+Condensed:100,200,300,400,500,600,700|Barlow+Semi+Condensed:100,200,300,400,500,600,700|News+Cycle:100,300,400|Bangers');
 
 
-/*Margins and Padding*/
+/*
+Margins and Padding
+*/
 
 body {
     margin: 0;
@@ -22,16 +24,13 @@ body {
     opacity: .75;
 }
 
-blockquote {
-    padding-right: 0;
-}
-
 #nav-facts {
     margin: 0;
 }
 
-/*Headings and Paragraphs*/
-
+/*
+Headings and Paragraphs
+*/
 .landing-font {
     font-family: 'Bangers', 'Sans-serif';
     font-weight: 400;
@@ -60,6 +59,7 @@ h3 {
     text-align: center;
     padding-top: 2vh;
     padding-left: .5rem;
+    text-shadow: 4px 2px 9px black;
 }
 
 h4 {
@@ -89,20 +89,12 @@ p {
     line-height: 1.1;
 }
 
+.contact {
+    font-size: 5rem;
+}
+
 blockquote p a {
     color: #ffffff;
-}
-
-.contact-form {
-    font-family: "Roboto Condensed";
-    font-weight: 500;
-    font-size: 2.5rem;
-    color: #fafafa;
-}
-
-input,
-textarea {
-    color: #000;
 }
 
 #action-intro {
@@ -120,6 +112,16 @@ textarea {
     text-align: center;
     margin: 0 0;
     background-color: #f0fcf1;
+}
+
+div.panel-heading > p > a {
+    color: #ffffff;
+}
+
+.panel-title {
+    font-weight: 500; 
+    font-size: 2.5rem; 
+    text-align: center;
 }
 
 .title {
@@ -171,8 +173,9 @@ textarea {
     opacity: .8;
 }
 
-/*Animations & Transitions*/
-
+/*
+Animations & Transitions
+*/
 .fade-logos {
     opacity: .50;
 }
@@ -203,10 +206,11 @@ a:hover {
     text-decoration: none;
 }
 
-/*Images & Logos*/
-
+/*
+Images & Logos
+*/
 #background {
-    background-image: url("/images/ecwscale.jpg");
+    background-image: url("/static/images/ecwscale.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -214,35 +218,35 @@ a:hover {
 }
 
 .mccdodds-image {
-    background-image: url("/images/mcdoddscropped.jpg");
+    background-image: url("/static/images/mcdoddscropped.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border: .25rem solid #a98bd7;
 }
 
 .boyd-image {
-    background-image: url("/images/killultaghcropped.png");
+    background-image: url("/static/images/killultaghcropped.png");
     background-repeat: no-repeat;
     background-size: cover;
     border: .25rem solid #a98bd7;
 }
 
 .nihe-image {
-    background-image: url("/images/NIHE.jpg");
+    background-image: url("/static/images/NIHE.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border: .25rem solid #a98bd7;
 }
 
 .bcc-image {
-    background-image: url("/images/BCClogo.jpeg");
+    background-image: url("/static/images/BCClogo.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     border: .25rem solid #a98bd7;
 }
 
 .logo {
-    background: url("../images/logo.png");
+    background: url("/static/images/logo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -257,35 +261,35 @@ a:hover {
 }
 
 .support-image {
-    background-image: url("/images/UNsupport.jpg");
+    background-image: url("/static/images/UNsupport.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border: .25rem solid #a98bd7;
 }
 
 .media-image {
-    background-image: url("/images/media.jpeg");
+    background-image: url("/static/images/media.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     border: .25rem solid #a98bd7;
 }
 
 .reports-image {
-    background-image: url("/images/infograph.jpg");
+    background-image: url("/static/images/infograph.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border: .25rem solid #a98bd7;
 }
 
 .morehillview-image {
-    background-image: url("/images/ECWHillview.jpg");
+    background-image: url("/static/images/ECWHillview.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border: .25rem solid #a98bd7;
 }
 
 .foi-image {
-    background-image: url("/images/foi.jpg");
+    background-image: url("/static/images/foi.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border: .25rem solid #a98bd7;
@@ -297,8 +301,9 @@ a:hover {
     left: 75%;
 }
 
-/*Background Colours*/
-
+/*
+Background Colours
+*/
 .header-para-facts-color {
     background-color: #B8977E;
 }
@@ -348,8 +353,9 @@ a:hover {
     z-index: 1050;
 }
 
-/*Nav Buttons*/
-
+/*
+Nav Buttons
+*/
 .fa-arrow-circle-o-left {
     color: #fafafa;
     position: fixed;
@@ -376,21 +382,28 @@ a:hover {
     opacity: 1;
 }
 
-/*Modal*/
+/*
+Blockquote
+*/
+blockquote {
+    padding-right: 0;
+}
+
+.modal-blockquote {
+    border-left:.5rem solid #000000
+}
+
+.main-blockquote {
+    font-size: 2.5rem;
+}
+
+blockquote p {
+    font-size: 2.2rem;
+}
 
 /*
-prevent background image from jumping. Causes modal to jump slightly  but it is
-less disruptive
+Modal
 */
-.modal-open {
-  padding-right: 0 !important;
-}
-
-html {
-  overflow-y: scroll !important;
-}
-
-
 .entry-modal-button {
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 500;
@@ -401,6 +414,10 @@ html {
     position: absolute;
     top: 77%;
     left: 2%;
+}
+
+.modal-dialog {
+    z-index: -1;
 }
 
 .entry-modal-button:hover {
@@ -444,8 +461,25 @@ html {
     font-family: "Roboto", sans-serif;
 }
 
-/*<main> - HOME*/
+.close {
+    font-size: 5rem;
+}
 
+/*
+prevent background image from jumping. Causes modal to jump slightly  but it is
+less disruptive
+*/
+.modal-open {
+  padding-right: 0 !important;
+}
+
+html {
+  overflow-y: scroll !important;
+}
+
+/*
+<main> - HOME
+*/
 .menu-item {
     height: 15vh;
     padding: 0;
@@ -472,15 +506,24 @@ html {
     font-size: 4rem;
 }
 
-/*<main> - FACTS*/
-
+/*
+<main> - FACTS
+*/
 .fact-txt {
     height: 20vh;
     margin-top: .5rem;
     line-height: 1.1;
 }
 
-/* <main> - IMPACT*/
+/* 
+<main> - IMPACT
+*/
+.video-container {
+    background-color:#000000; 
+    opacity:.8; 
+    border:.25rem 
+    solid #a98bd7
+}
 
 .video-container iframe {
     position: relative;
@@ -490,44 +533,18 @@ html {
     height: 90%;
 }
 
-/* <main> - CONTACT US*/
-
-input[type=text] {
-    width: 100%;
-    padding: .5rem;
-    margin: 1rem 0;
-    display: inline-block;
-    border: 1px solid #4169e1;
-    border-radius: .5rem;
-    box-sizing: border-box;
-}
-
-input[type=email] {
-    width: 100%;
-    padding: .5rem;
-    margin: 1rem 0;
-    display: inline-block;
-    border: .2rem solid #4169e1;
-    border-radius: .5rem;
-    box-sizing: border-box;
-}
-
-input[type=number] {
-    width: 100%;
-    padding: .5rem;
-    margin: 1rem 0;
-    display: inline-block;
-    border: .2rem solid #4169e1;
-    border-radius: .5rem;
-    box-sizing: border-box;
-}
-
+/* 
+<main> - CONTACT US
+*/
+input[type=text],
+input[type=email],
+input[type=number],
 textarea {
     width: 100%;
     padding: .5rem;
     margin: 1rem 0;
     display: inline-block;
-    border: .2rem solid #4169e1;
+    border: 1px solid #4169e1;
     border-radius: .5rem;
     box-sizing: border-box;
 }
@@ -547,8 +564,21 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-/* <main> - WHAT YOU CAN DO*/
+.contact-form {
+    font-family: "Roboto Condensed";
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #fafafa;
+}
 
+input,
+textarea {
+    color: #000;
+}
+
+/* 
+<main> - WHAT YOU CAN DO
+*/
 .panel-default>.panel-heading {
     background-color: #009688;
     height: 11vh;
@@ -563,8 +593,10 @@ input[type=submit]:hover {
     height: 100px;
 }
 
-/* <main> Footer*/
 
+/* 
+<main> Footer
+*/
 .social-links li a i {
     font-size: 5rem;
     color: #000000;
@@ -585,11 +617,10 @@ hr {
     width: 75%
 }
 
-/*Media Queries*/
-
+/*
+Media Queries
+*/
 @media(min-width: 768px) {
-
-
 
     /*min-width: 768px - Margins and Padding*/
     #nav {
@@ -706,10 +737,8 @@ hr {
     }
 }
 
-
 @media(min-width: 1200px) {
-
-
+    
     /*min-width: 1200px - Padding and Margins*/
     .main-nav {
         padding-top: 5rem;
@@ -757,6 +786,10 @@ hr {
 
     p {
         font-size: 3rem;
+    }
+    
+    .main-blockquote {
+        font-size: 3.2rem;
     }
 
     #action-intro {
