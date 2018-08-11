@@ -469,12 +469,13 @@ Modal
 prevent background image from jumping. Causes modal to jump slightly  but it is
 less disruptive
 */
-.modal-open {
-  padding-right: 0 !important;
+
+.modal {
+ overflow-y: auto;
 }
 
-html {
-  overflow-y: scroll !important;
+.modal-open {
+ overflow: auto;
 }
 
 /*

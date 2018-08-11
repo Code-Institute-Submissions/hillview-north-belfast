@@ -84,7 +84,7 @@ The site was tested manually by going through each page and checking that the fo
 
 ## Contributing
 * We welcome all contributions to improving our code and accept pull requests. 
-* There is an outstanding bug in the code. The centre panels jump slightly when the modals are opened. ``overflow-y`` and ``padding`` styles are applied to ```.modal-open``` and ```html``` to minimise disruption. 
+* There is an outstanding bug in the code. The centre panels jump slightly to the left when the modals are opened. ``overflow-y`` and ``overflow`` are set to auto on ```.modal-open``` and ```.modal``` to minimise disruption. 
 
 ## Credits
 
